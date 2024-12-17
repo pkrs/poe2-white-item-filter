@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "scrape": "deno run --allow-net --allow-write src/get_data.ts"
+  },
+  "imports": {
+    "cheerio": "npm:cheerio@1.0.0-rc.12"
+  },
+  "compilerOptions": {
+    "strict": true,
+    "allowJs": true,
+    "lib": ["deno.window", "dom"]
+  }
+}
