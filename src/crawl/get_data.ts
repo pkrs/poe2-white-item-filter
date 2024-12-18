@@ -1,5 +1,5 @@
-import { load } from "npm:cheerio@1.0.0-rc.12";
-import { Item, ItemData } from "./types.ts";
+import { load } from "npm:cheerio";
+import { Item, ItemData } from "../types.ts";
 
 const ITEM_URLS = {
   Gloves: "https://poe2db.tw/us/Gloves#GlovesItem",
@@ -15,6 +15,7 @@ async function scrapeItems(url: string, itemType: string): Promise<Item[]> {
   const items: Item[] = [];
 
   // Select each item container
+  // deno-lint-ignore no-explicit-any
   $("div.d-flex.border.rounded").each((_index: number, element: any) => {
     const $container = $(element);
 
