@@ -3,13 +3,11 @@ export interface Item {
   type: string;
   levelRequired?: number;
   strRequired?: number;
-  dexRequired?: number;
-  intRequired?: number;
   armor?: number;
   evasion?: number;
-  es?: number;
+  energyShield?: number;
 }
 
 export interface ItemData {
-  items: Item[];
+  itemsByType: Record<string, Item[]>;
 }
