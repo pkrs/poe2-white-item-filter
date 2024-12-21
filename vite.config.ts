@@ -6,11 +6,7 @@ import "react";
 import "react-dom";
 
 export default defineConfig({
-  root: "./src/app",
-  build: {
-    outDir: "./dist",
-    emptyOutDir: true, // also necessary
-  },
+  root: "./app",
   server: {
     port: 3000,
   },

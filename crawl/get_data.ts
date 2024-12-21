@@ -1,5 +1,5 @@
 import { load } from "npm:cheerio";
-import { Item, ItemData } from "../types.ts";
+import { Item, ItemData } from "../types/types.ts";
 
 const ITEM_URLS = {
   Gloves: "https://poe2db.tw/us/Gloves#GlovesItem",
