@@ -57,7 +57,7 @@ function App() {
     useState<EquipmentOption>("All equipment");
   const [borderColor, setBorderColor] = useState<BorderColor>("Red");
   const [level, setLevel] = useState<number>(1);
-  const [snippet, setSnippet] = useState<string>("");
+  const [snippet] = useState<string>("");
 
   useEffect(() => {
     if (characterClass) {
@@ -238,7 +238,7 @@ function App() {
             </CardHeader>
             <CardContent>
               <pre className="bg-[#1a1a1a] p-4 rounded-lg overflow-x-auto">
-                {snippet || "// Snippet will be generated here"}
+                {"// Snippet will be generated here"}
               </pre>
             </CardContent>
           </Card>
