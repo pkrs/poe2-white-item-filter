@@ -1,5 +1,7 @@
-import { load } from "npm:cheerio";
-import { Item, ItemData } from "../types/types.ts";
+import cheerio from "cheerio";
+import fs from "fs/promises";
+import path from "path";
+import { Item, ItemData } from "../types/types";
 
 const ITEM_URLS = {
   Gloves: "https://poe2db.tw/us/Gloves#GlovesItem",
@@ -11,7 +13,7 @@ const ITEM_URLS = {
 async function scrapeItems(url: string, itemType: string): Promise<Item[]> {
   const response = await fetch(url);
   const html = await response.text();
-  const $ = load(html);
+  const $ = cheerio.load(html);
   const items: Item[] = [];
 
   // Select each item container
@@ -65,7 +67,10 @@ async function main() {
 
     const data: ItemData = { itemsByType };
     const jsonString = JSON.stringify(data, null, 2);
-    await Deno.writeTextFile("./data/equipment.json", jsonString);
+    await fs.writeFile(
+      path.join(__dirname, "../data/equipment.json"),
+      jsonString
+    );
 
     const totalItems = Object.values(itemsByType).reduce(
       (sum, items) => sum + items.length,
@@ -84,6 +89,6 @@ async function main() {
   }
 }
 
-if (import.meta.main) {
+if (require.main === module) {
   main();
 }
