@@ -7,6 +7,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "@crawler": path.resolve(__dirname, "../crawler/src"),
+      "@": path.resolve(__dirname, "./src"),
     },
   },
 });

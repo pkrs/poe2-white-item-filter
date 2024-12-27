@@ -1,24 +1,9 @@
 import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { Checkbox } from "@/components/ui/checkbox";
-import { Input } from "@/components/ui/input";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Slider } from "@/components/ui/slider";
 import { Copy } from "lucide-react";
 import { useEffect, useState } from "react";
 import "./App.css";
-
 type CharacterClass =
   | "Monk"
   | "Warrior"
@@ -76,55 +61,51 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#1a1a1a] text-gray-200 py-8 px-4">
-      <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-exocet text-center mb-8 text-[#c7b377]">
-          Path of Exile 2 Snippet Generator
+    <div className="min-h-screen min-w-[1024px] text-gray-200 py-8 px-4">
+      <div className="mx-auto">
+        <h1 className="text-4xl text-center mb-8 text-[#FFA800] font-">
+          POE2 White Item Filter Generator
         </h1>
 
-        <Card className="bg-[#2a2a2a] border-[#3a3a3a]">
-          <CardHeader>
-            <CardTitle className="text-[#c7b377]">
-              Configure Your Build
-            </CardTitle>
-            <CardDescription>
-              Select your preferences to generate a custom snippet
-            </CardDescription>
-          </CardHeader>
+        <Card className="bg-[#1C1C1C] border-[#3B3B3B] pt-4">
           <CardContent className="space-y-6">
             {/* Character Class Selection */}
             <div className="space-y-2">
-              <label className="text-sm font-semibold">Character Class</label>
-              <Select
-                onValueChange={(value) =>
-                  setCharacterClass(value as CharacterClass)
-                }
-              >
-                <SelectTrigger>
-                  <SelectValue placeholder="Select your class" />
-                </SelectTrigger>
-                <SelectContent>
-                  {[
-                    "Monk",
-                    "Warrior",
-                    "Witch",
-                    "Ranger",
-                    "Sorceress",
-                    "Mercenary",
-                  ].map((cls) => (
-                    <SelectItem key={cls} value={cls}>
-                      {cls}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
+              <label className="text-sm font-semibold text-[#FFA800]">
+                Character Class
+              </label>
+              <div className="flex flex-wrap gap-2 justify-center">
+                {[
+                  "Monk",
+                  "Warrior",
+                  "Witch",
+                  "Ranger",
+                  "Sorceress",
+                  "Mercenary",
+                ].map((cls) => (
+                  <Button
+                    key={cls}
+                    variant={characterClass === cls ? "default" : "outline"}
+                    onClick={() => setCharacterClass(cls as CharacterClass)}
+                    className={`${
+                      characterClass === cls
+                        ? "bg-[#FFA800] text-black hover:bg-[#FFB824]"
+                        : "border-[#3B3B3B] hover:border-[#FFA800] hover:text-[#FFA800]"
+                    } whitespace-nowrap`}
+                  >
+                    {cls}
+                  </Button>
+                ))}
+              </div>
             </div>
 
             {/* Defence Types */}
             {characterClass && (
               <div className="space-y-2">
-                <label className="text-sm font-semibold">Defence Types</label>
-                <div className="grid grid-cols-2 gap-4">
+                <label className="text-sm font-semibold text-[#FFA800]">
+                  Defence Types (Select multiple)
+                </label>
+                <div className="flex flex-wrap gap-2 justify-center">
                   {[
                     "Armour",
                     "Evasion",
@@ -133,24 +114,33 @@ function App() {
                     "Evasion/Energy Shield",
                     "Energy Shield/Armour",
                   ].map((type) => (
-                    <div key={type} className="flex items-center space-x-2">
-                      <Checkbox
-                        checked={defenceTypes.includes(type as DefenceType)}
-                        onCheckedChange={(checked) => {
-                          if (checked) {
-                            setDefenceTypes([
-                              ...defenceTypes,
-                              type as DefenceType,
-                            ]);
-                          } else {
-                            setDefenceTypes(
-                              defenceTypes.filter((t) => t !== type)
-                            );
-                          }
-                        }}
-                      />
-                      <label>{type}</label>
-                    </div>
+                    <Button
+                      key={type}
+                      variant={
+                        defenceTypes.includes(type as DefenceType)
+                          ? "default"
+                          : "outline"
+                      }
+                      onClick={() => {
+                        if (defenceTypes.includes(type as DefenceType)) {
+                          setDefenceTypes(
+                            defenceTypes.filter((t) => t !== type)
+                          );
+                        } else {
+                          setDefenceTypes([
+                            ...defenceTypes,
+                            type as DefenceType,
+                          ]);
+                        }
+                      }}
+                      className={`${
+                        defenceTypes.includes(type as DefenceType)
+                          ? "bg-[#FFA800] text-black hover:bg-[#FFB824]"
+                          : "border-[#3B3B3B] hover:border-[#FFA800] hover:text-[#FFA800]"
+                      }`}
+                    >
+                      {type}
+                    </Button>
                   ))}
                 </div>
               </div>
@@ -159,41 +149,41 @@ function App() {
             {/* Equipment Option */}
             {characterClass && (
               <div className="space-y-2">
-                <label className="text-sm font-semibold">
+                <label className="text-sm font-semibold text-[#FFA800]">
                   Equipment Option
                 </label>
-                <Select
-                  value={equipmentOption}
-                  onValueChange={(value) =>
-                    setEquipmentOption(value as EquipmentOption)
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {[
-                      "All equipment",
-                      "Highest for my level",
-                      "Most and 2nd most highest",
-                    ].map((opt) => (
-                      <SelectItem key={opt} value={opt}>
-                        {opt}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
+                <div className="flex flex-wrap gap-2 justify-center">
+                  {["All equipment", "Highest for my level"].map((opt) => (
+                    <Button
+                      key={opt}
+                      variant={equipmentOption === opt ? "default" : "outline"}
+                      onClick={() => setEquipmentOption(opt as EquipmentOption)}
+                      className={`${
+                        equipmentOption === opt
+                          ? "bg-[#FFA800] text-black hover:bg-[#FFB824]"
+                          : "border-[#3B3B3B] hover:border-[#FFA800] hover:text-[#FFA800]"
+                      }`}
+                    >
+                      {opt}
+                    </Button>
+                  ))}
+                </div>
 
                 {equipmentOption !== "All equipment" && (
                   <div className="mt-2">
-                    <Input
-                      type="number"
-                      min={1}
-                      max={100}
-                      value={level}
-                      onChange={(e) => setLevel(Number(e.target.value))}
-                      className="w-32"
-                    />
+                    <div className="flex items-center gap-4">
+                      <Slider
+                        value={[level]}
+                        onValueChange={([value]) => setLevel(value)}
+                        min={1}
+                        max={100}
+                        step={1}
+                        className="w-full"
+                      />
+                      <span className="min-w-[3ch] text-sm text-gray-400">
+                        {level}
+                      </span>
+                    </div>
                   </div>
                 )}
               </div>
@@ -202,24 +192,25 @@ function App() {
             {/* Border Color */}
             {characterClass && (
               <div className="space-y-2">
-                <label className="text-sm font-semibold">Border Color</label>
-                <Select
-                  value={borderColor}
-                  onValueChange={(value) =>
-                    setBorderColor(value as BorderColor)
-                  }
-                >
-                  <SelectTrigger>
-                    <SelectValue />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {["Red", "Green", "Blue", "Yellow", "Teal"].map((color) => (
-                      <SelectItem key={color} value={color}>
-                        {color}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
+                <label className="text-sm font-semibold text-[#FFA800]">
+                  Border Color
+                </label>
+                <div className="flex flex-wrap gap-2 justify-center">
+                  {["Red", "Green", "Blue", "Yellow", "Teal"].map((color) => (
+                    <Button
+                      key={color}
+                      variant={borderColor === color ? "default" : "outline"}
+                      onClick={() => setBorderColor(color as BorderColor)}
+                      className={`${
+                        borderColor === color
+                          ? "bg-[#FFA800] text-black hover:bg-[#FFB824]"
+                          : "border-[#3B3B3B] hover:border-[#FFA800] hover:text-[#FFA800]"
+                      }`}
+                    >
+                      {color}
+                    </Button>
+                  ))}
+                </div>
               </div>
             )}
           </CardContent>
@@ -227,17 +218,22 @@ function App() {
 
         {/* Snippet Display */}
         {characterClass && (
-          <Card className="mt-8 bg-[#2a2a2a] border-[#3a3a3a]">
+          <Card className="mt-8 bg-[#1C1C1C] border-[#3B3B3B]">
             <CardHeader className="flex flex-row items-center justify-between">
-              <CardTitle className="text-[#c7b377]">
+              <CardTitle className="text-[#FFA800]">
                 Generated Snippet
               </CardTitle>
-              <Button variant="outline" size="icon" onClick={copyToClipboard}>
+              <Button
+                variant="outline"
+                size="icon"
+                onClick={copyToClipboard}
+                className="border-[#3B3B3B] hover:border-[#FFA800] hover:text-[#FFA800]"
+              >
                 <Copy className="h-4 w-4" />
               </Button>
             </CardHeader>
             <CardContent>
-              <pre className="bg-[#1a1a1a] p-4 rounded-lg overflow-x-auto">
+              <pre className="bg-[#0C0C0C] p-4 rounded-lg overflow-x-auto border border-[#3B3B3B]">
                 {"// Snippet will be generated here"}
               </pre>
             </CardContent>
