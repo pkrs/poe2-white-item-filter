@@ -32,7 +32,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: POE2 White Item Filter # replace with your project name
+          projectName: poe2-white-item-filter # replace with your project name
           directory: dist # or your build output directory
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
           workingDirectory: packages/web
