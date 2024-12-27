@@ -8,6 +8,7 @@ on:
 
 jobs:
   deploy:
+    name: Publish to Cloudflare Pages
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -31,6 +32,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: your-project-name # replace with your project name
+          projectName: POE2 White Item Filter # replace with your project name
           directory: dist # or your build output directory
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }
+          workingDirectory: packages/web
