@@ -4,7 +4,8 @@
 
 @font-face {
   font-family: "Fontin-SmallCaps";
-  src: url("./fonts/Fontin-SmallCaps.ttf");
+  src: local("../public/fonts/Fontin-SmallCaps.ttf"),
+    url("../public/fonts/Fontin-SmallCaps.ttf");
 }
 
 body {
