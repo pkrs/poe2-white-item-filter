@@ -34,5 +34,5 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: POE2 White Item Filter # replace with your project name
           directory: dist # or your build output directory
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
           workingDirectory: packages/web
