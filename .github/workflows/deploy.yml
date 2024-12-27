@@ -21,7 +21,7 @@ jobs:
           node-version: 18 # or your preferred version
 
       - name: Install Dependencies
-        run: npm install # or yarn install
+        run: npm install --workspace=@poe2-planner/web # or yarn install
 
       - name: Build
         run: npm run build --workspace=@poe2-planner/web # or yarn build

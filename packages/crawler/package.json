@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
-    "@poe2-planner/types": "workspace:*"
+    "@poe2-planner/types": "0.1.0"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
