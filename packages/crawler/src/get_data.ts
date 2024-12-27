@@ -5,8 +5,8 @@ import path from "path";
 
 const ITEM_URLS = {
   Gloves: "https://poe2db.tw/us/Gloves#GlovesItem",
-  BodyArmour: "https://poe2db.tw/us/Body_Armours#BodyArmoursItem",
-  Helmets: "https://poe2db.tw/us/Helmets#HelmetsItem",
+  "Body Armour": "https://poe2db.tw/us/Body_Armours#BodyArmoursItem",
+  Helmet: "https://poe2db.tw/us/Helmets#HelmetsItem",
   Boots: "https://poe2db.tw/us/Boots#BootsItem",
 };
 
@@ -29,6 +29,8 @@ async function scrapeItems(url: string, itemType: string): Promise<Item[]> {
     const requirementsText = $container.find("div.requirements").text();
     const levelMatch = requirementsText.match(/Level (\d+)/);
     const strMatch = requirementsText.match(/(\d+) Str/);
+    const dexMatch = requirementsText.match(/(\d+) Dex/);
+    const intMatch = requirementsText.match(/(\d+) Int/);
 
     // Extract defense values
     const propertyText = $container.find("div.property").text();
@@ -42,7 +44,9 @@ async function scrapeItems(url: string, itemType: string): Promise<Item[]> {
         type: itemType,
         levelRequired: levelMatch ? parseInt(levelMatch[1]) : undefined,
         strRequired: strMatch ? parseInt(strMatch[1]) : undefined,
-        armor: armorMatch ? parseInt(armorMatch[1]) : undefined,
+        dexRequired: dexMatch ? parseInt(dexMatch[1]) : undefined,
+        intRequired: intMatch ? parseInt(intMatch[1]) : undefined,
+        armour: armorMatch ? parseInt(armorMatch[1]) : undefined,
         evasion: evasionMatch ? parseInt(evasionMatch[1]) : undefined,
         energyShield: energyShieldMatch
           ? parseInt(energyShieldMatch[1])

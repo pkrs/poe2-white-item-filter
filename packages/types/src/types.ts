@@ -3,7 +3,9 @@ export interface Item {
   type: string;
   levelRequired?: number;
   strRequired?: number;
-  armor?: number;
+  dexRequired?: number;
+  intRequired?: number;
+  armour?: number;
   evasion?: number;
   energyShield?: number;
 }

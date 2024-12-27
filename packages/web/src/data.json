@@ -1,0 +1,3301 @@
+{
+  "itemsByType": {
+    "Gloves": [
+      {
+        "itemName": "Golden Bracers",
+        "type": "Gloves",
+        "levelRequired": 12
+      },
+      {
+        "itemName": "Stocky Mitts",
+        "type": "Gloves",
+        "armour": 15
+      },
+      {
+        "itemName": "Riveted Mitts",
+        "type": "Gloves",
+        "levelRequired": 11,
+        "strRequired": 19,
+        "armour": 31
+      },
+      {
+        "itemName": "Tempered Mitts",
+        "type": "Gloves",
+        "levelRequired": 16,
+        "strRequired": 27,
+        "armour": 40
+      },
+      {
+        "itemName": "Bolstered Mitts",
+        "type": "Gloves",
+        "levelRequired": 27,
+        "strRequired": 44,
+        "armour": 58
+      },
+      {
+        "itemName": "Moulded Mitts",
+        "type": "Gloves",
+        "levelRequired": 33,
+        "strRequired": 53,
+        "armour": 68
+      },
+      {
+        "itemName": "Detailed Mitts",
+        "type": "Gloves",
+        "levelRequired": 45,
+        "strRequired": 73,
+        "armour": 88
+      },
+      {
+        "itemName": "Titan Mitts",
+        "type": "Gloves",
+        "levelRequired": 52,
+        "strRequired": 83,
+        "armour": 100
+      },
+      {
+        "itemName": "Grand Mitts",
+        "type": "Gloves",
+        "levelRequired": 65,
+        "strRequired": 104,
+        "armour": 122
+      },
+      {
+        "itemName": "Suede Bracers",
+        "type": "Gloves",
+        "evasion": 10
+      },
+      {
+        "itemName": "Firm Bracers",
+        "type": "Gloves",
+        "levelRequired": 11,
+        "dexRequired": 19,
+        "evasion": 26
+      },
+      {
+        "itemName": "Bound Bracers",
+        "type": "Gloves",
+        "levelRequired": 16,
+        "dexRequired": 27,
+        "evasion": 33
+      },
+      {
+        "itemName": "Sectioned Bracers",
+        "type": "Gloves",
+        "levelRequired": 28,
+        "dexRequired": 46,
+        "evasion": 52
+      },
+      {
+        "itemName": "Spined Bracers",
+        "type": "Gloves",
+        "levelRequired": 33,
+        "dexRequired": 53,
+        "evasion": 60
+      },
+      {
+        "itemName": "Fine Bracers",
+        "type": "Gloves",
+        "levelRequired": 45,
+        "dexRequired": 73,
+        "evasion": 79
+      },
+      {
+        "itemName": "Hardened Bracers",
+        "type": "Gloves",
+        "levelRequired": 52,
+        "dexRequired": 83,
+        "evasion": 90
+      },
+      {
+        "itemName": "Engraved Bracers",
+        "type": "Gloves",
+        "levelRequired": 65,
+        "dexRequired": 104,
+        "evasion": 111
+      },
+      {
+        "itemName": "Torn Gloves",
+        "type": "Gloves",
+        "energyShield": 9
+      },
+      {
+        "itemName": "Sombre Gloves",
+        "type": "Gloves",
+        "levelRequired": 12,
+        "intRequired": 20,
+        "energyShield": 15
+      },
+      {
+        "itemName": "Stitched Gloves",
+        "type": "Gloves",
+        "levelRequired": 16,
+        "intRequired": 27,
+        "energyShield": 17
+      },
+      {
+        "itemName": "Jewelled Gloves",
+        "type": "Gloves",
+        "levelRequired": 26,
+        "intRequired": 43,
+        "energyShield": 22
+      },
+      {
+        "itemName": "Intricate Gloves",
+        "type": "Gloves",
+        "levelRequired": 33,
+        "intRequired": 53,
+        "energyShield": 26
+      },
+      {
+        "itemName": "Pauascale Gloves",
+        "type": "Gloves",
+        "levelRequired": 45,
+        "intRequired": 73,
+        "energyShield": 32
+      },
+      {
+        "itemName": "Embroidered Gloves",
+        "type": "Gloves",
+        "levelRequired": 52,
+        "intRequired": 83,
+        "energyShield": 35
+      },
+      {
+        "itemName": "Adorned Gloves",
+        "type": "Gloves",
+        "levelRequired": 65,
+        "intRequired": 104,
+        "energyShield": 42
+      },
+      {
+        "itemName": "Ringmail Gauntlets",
+        "type": "Gloves",
+        "levelRequired": 6,
+        "strRequired": 7,
+        "dexRequired": 7,
+        "armour": 13,
+        "evasion": 10
+      },
+      {
+        "itemName": "Layered Gauntlets",
+        "type": "Gloves",
+        "levelRequired": 16,
+        "strRequired": 15,
+        "dexRequired": 15,
+        "armour": 22,
+        "evasion": 18
+      },
+      {
+        "itemName": "Doubled Gauntlets",
+        "type": "Gloves",
+        "levelRequired": 33,
+        "strRequired": 30,
+        "dexRequired": 30,
+        "armour": 37,
+        "evasion": 33
+      },
+      {
+        "itemName": "Plate Gauntlets",
+        "type": "Gloves",
+        "levelRequired": 45,
+        "strRequired": 40,
+        "dexRequired": 40,
+        "armour": 48,
+        "evasion": 44
+      },
+      {
+        "itemName": "Burnished Gauntlets",
+        "type": "Gloves",
+        "levelRequired": 52,
+        "strRequired": 46,
+        "dexRequired": 46,
+        "armour": 55,
+        "evasion": 50
+      },
+      {
+        "itemName": "Ornate Gauntlets",
+        "type": "Gloves",
+        "levelRequired": 65,
+        "strRequired": 57,
+        "dexRequired": 57,
+        "armour": 67,
+        "evasion": 61
+      },
+      {
+        "itemName": "Rope Cuffs",
+        "type": "Gloves",
+        "levelRequired": 5,
+        "strRequired": 6,
+        "intRequired": 6,
+        "armour": 12,
+        "energyShield": 6
+      },
+      {
+        "itemName": "Aged Cuffs",
+        "type": "Gloves",
+        "levelRequired": 16,
+        "strRequired": 15,
+        "intRequired": 15,
+        "armour": 22,
+        "energyShield": 9
+      },
+      {
+        "itemName": "Goldcast Cuffs",
+        "type": "Gloves",
+        "levelRequired": 33,
+        "strRequired": 30,
+        "intRequired": 30,
+        "armour": 37,
+        "energyShield": 14
+      },
+      {
+        "itemName": "Diviner Cuffs",
+        "type": "Gloves",
+        "levelRequired": 45,
+        "strRequired": 40,
+        "intRequired": 40,
+        "armour": 48,
+        "energyShield": 17
+      },
+      {
+        "itemName": "Righteous Cuffs",
+        "type": "Gloves",
+        "levelRequired": 52,
+        "strRequired": 46,
+        "intRequired": 46,
+        "armour": 55,
+        "energyShield": 19
+      },
+      {
+        "itemName": "Signet Cuffs",
+        "type": "Gloves",
+        "levelRequired": 65,
+        "strRequired": 57,
+        "intRequired": 57,
+        "armour": 67,
+        "energyShield": 23
+      },
+      {
+        "itemName": "Gauze Wraps",
+        "type": "Gloves",
+        "levelRequired": 4,
+        "dexRequired": 6,
+        "intRequired": 6,
+        "evasion": 8,
+        "energyShield": 6
+      },
+      {
+        "itemName": "Linen Wraps",
+        "type": "Gloves",
+        "levelRequired": 16,
+        "dexRequired": 15,
+        "intRequired": 15,
+        "evasion": 18,
+        "energyShield": 9
+      },
+      {
+        "itemName": "Spiral Wraps",
+        "type": "Gloves",
+        "levelRequired": 33,
+        "dexRequired": 30,
+        "intRequired": 30,
+        "evasion": 33,
+        "energyShield": 14
+      },
+      {
+        "itemName": "Buckled Wraps",
+        "type": "Gloves",
+        "levelRequired": 45,
+        "dexRequired": 40,
+        "intRequired": 40,
+        "evasion": 44,
+        "energyShield": 17
+      },
+      {
+        "itemName": "Furtive Wraps",
+        "type": "Gloves",
+        "levelRequired": 52,
+        "dexRequired": 46,
+        "intRequired": 46,
+        "evasion": 50,
+        "energyShield": 19
+      },
+      {
+        "itemName": "Utility Wraps",
+        "type": "Gloves",
+        "levelRequired": 65,
+        "dexRequired": 57,
+        "intRequired": 57,
+        "evasion": 61,
+        "energyShield": 23
+      },
+      {
+        "itemName": "Grand Manchettes",
+        "type": "Gloves",
+        "levelRequired": 65,
+        "strRequired": 40,
+        "dexRequired": 40,
+        "intRequired": 40,
+        "armour": 44,
+        "evasion": 40,
+        "energyShield": 15
+      },
+      {
+        "itemName": "Advanced Riveted Mitts",
+        "type": "Gloves",
+        "levelRequired": 45,
+        "strRequired": 73,
+        "armour": 88
+      },
+      {
+        "itemName": "Advanced Tempered Mitts",
+        "type": "Gloves",
+        "levelRequired": 51,
+        "strRequired": 82,
+        "armour": 98
+      },
+      {
+        "itemName": "Advanced Bolstered Mitts",
+        "type": "Gloves",
+        "levelRequired": 55,
+        "strRequired": 88,
+        "armour": 105
+      },
+      {
+        "itemName": "Advanced Moulded Mitts",
+        "type": "Gloves",
+        "levelRequired": 59,
+        "strRequired": 95,
+        "armour": 111
+      },
+      {
+        "itemName": "Advanced Firm Bracers",
+        "type": "Gloves",
+        "levelRequired": 45,
+        "dexRequired": 73,
+        "evasion": 79
+      },
+      {
+        "itemName": "Advanced Bound Bracers",
+        "type": "Gloves",
+        "levelRequired": 51,
+        "dexRequired": 82,
+        "evasion": 89
+      },
+      {
+        "itemName": "Advanced Sectioned Bracers",
+        "type": "Gloves",
+        "levelRequired": 55,
+        "dexRequired": 88,
+        "evasion": 95
+      },
+      {
+        "itemName": "Advanced Spined Bracers",
+        "type": "Gloves",
+        "levelRequired": 59,
+        "dexRequired": 95,
+        "evasion": 101
+      },
+      {
+        "itemName": "Advanced Sombre Gloves",
+        "type": "Gloves",
+        "levelRequired": 45,
+        "intRequired": 73,
+        "energyShield": 32
+      },
+      {
+        "itemName": "Advanced Stitched Gloves",
+        "type": "Gloves",
+        "levelRequired": 51,
+        "intRequired": 82,
+        "energyShield": 35
+      },
+      {
+        "itemName": "Advanced Jewelled Gloves",
+        "type": "Gloves",
+        "levelRequired": 55,
+        "intRequired": 88,
+        "energyShield": 37
+      },
+      {
+        "itemName": "Advanced Intricate Gloves",
+        "type": "Gloves",
+        "levelRequired": 59,
+        "intRequired": 95,
+        "energyShield": 39
+      },
+      {
+        "itemName": "Advanced Ringmail Gauntlets",
+        "type": "Gloves",
+        "levelRequired": 45,
+        "strRequired": 40,
+        "dexRequired": 40,
+        "armour": 48,
+        "evasion": 44
+      },
+      {
+        "itemName": "Advanced Layered Gauntlets",
+        "type": "Gloves",
+        "levelRequired": 51,
+        "strRequired": 46,
+        "dexRequired": 46,
+        "armour": 54,
+        "evasion": 49
+      },
+      {
+        "itemName": "Advanced Doubled Gauntlets",
+        "type": "Gloves",
+        "levelRequired": 59,
+        "strRequired": 52,
+        "dexRequired": 52,
+        "armour": 61,
+        "evasion": 56
+      },
+      {
+        "itemName": "Advanced Rope Cuffs",
+        "type": "Gloves",
+        "levelRequired": 45,
+        "strRequired": 40,
+        "intRequired": 40,
+        "armour": 48,
+        "energyShield": 17
+      },
+      {
+        "itemName": "Advanced Aged Cuffs",
+        "type": "Gloves",
+        "levelRequired": 51,
+        "strRequired": 46,
+        "intRequired": 46,
+        "armour": 54,
+        "energyShield": 19
+      },
+      {
+        "itemName": "Advanced Goldcast Cuffs",
+        "type": "Gloves",
+        "levelRequired": 59,
+        "strRequired": 52,
+        "intRequired": 52,
+        "armour": 61,
+        "energyShield": 21
+      },
+      {
+        "itemName": "Advanced Gauze Wraps",
+        "type": "Gloves",
+        "levelRequired": 45,
+        "dexRequired": 40,
+        "intRequired": 40,
+        "evasion": 44,
+        "energyShield": 17
+      },
+      {
+        "itemName": "Advanced Linen Wraps",
+        "type": "Gloves",
+        "levelRequired": 51,
+        "dexRequired": 46,
+        "intRequired": 46,
+        "evasion": 49,
+        "energyShield": 19
+      },
+      {
+        "itemName": "Advanced Spiral Wraps",
+        "type": "Gloves",
+        "levelRequired": 59,
+        "dexRequired": 52,
+        "intRequired": 52,
+        "evasion": 56,
+        "energyShield": 21
+      },
+      {
+        "itemName": "Expert Riveted Mitts",
+        "type": "Gloves",
+        "levelRequired": 65,
+        "strRequired": 104,
+        "armour": 122
+      },
+      {
+        "itemName": "Expert Bolstered Mitts",
+        "type": "Gloves",
+        "levelRequired": 70,
+        "strRequired": 113,
+        "armour": 134
+      },
+      {
+        "itemName": "Expert Moulded Mitts",
+        "type": "Gloves",
+        "levelRequired": 75,
+        "strRequired": 122,
+        "armour": 146
+      },
+      {
+        "itemName": "Expert Firm Bracers",
+        "type": "Gloves",
+        "levelRequired": 65,
+        "dexRequired": 104,
+        "evasion": 111
+      },
+      {
+        "itemName": "Expert Sectioned Bracers",
+        "type": "Gloves",
+        "levelRequired": 70,
+        "dexRequired": 113,
+        "evasion": 122
+      },
+      {
+        "itemName": "Expert Spined Bracers",
+        "type": "Gloves",
+        "levelRequired": 75,
+        "dexRequired": 122,
+        "evasion": 133
+      },
+      {
+        "itemName": "Expert Sombre Gloves",
+        "type": "Gloves",
+        "levelRequired": 65,
+        "intRequired": 104,
+        "energyShield": 42
+      },
+      {
+        "itemName": "Expert Jewelled Gloves",
+        "type": "Gloves",
+        "levelRequired": 70,
+        "intRequired": 113,
+        "energyShield": 46
+      },
+      {
+        "itemName": "Expert Intricate Gloves",
+        "type": "Gloves",
+        "levelRequired": 75,
+        "intRequired": 122,
+        "energyShield": 50
+      },
+      {
+        "itemName": "Expert Ringmail Gauntlets",
+        "type": "Gloves",
+        "levelRequired": 65,
+        "strRequired": 57,
+        "dexRequired": 57,
+        "armour": 67,
+        "evasion": 61
+      },
+      {
+        "itemName": "Expert Layered Gauntlets",
+        "type": "Gloves",
+        "levelRequired": 70,
+        "strRequired": 62,
+        "dexRequired": 62,
+        "armour": 74,
+        "evasion": 67
+      },
+      {
+        "itemName": "Expert Doubled Gauntlets",
+        "type": "Gloves",
+        "levelRequired": 75,
+        "strRequired": 67,
+        "dexRequired": 67,
+        "armour": 80,
+        "evasion": 73
+      },
+      {
+        "itemName": "Expert Rope Cuffs",
+        "type": "Gloves",
+        "levelRequired": 65,
+        "strRequired": 57,
+        "intRequired": 57,
+        "armour": 67,
+        "energyShield": 23
+      },
+      {
+        "itemName": "Expert Aged Cuffs",
+        "type": "Gloves",
+        "levelRequired": 70,
+        "strRequired": 62,
+        "intRequired": 62,
+        "armour": 74,
+        "energyShield": 25
+      },
+      {
+        "itemName": "Expert Goldcast Cuffs",
+        "type": "Gloves",
+        "levelRequired": 75,
+        "strRequired": 67,
+        "intRequired": 67,
+        "armour": 80,
+        "energyShield": 28
+      },
+      {
+        "itemName": "Expert Gauze Wraps",
+        "type": "Gloves",
+        "levelRequired": 65,
+        "dexRequired": 57,
+        "intRequired": 57,
+        "evasion": 61,
+        "energyShield": 23
+      },
+      {
+        "itemName": "Expert Linen Wraps",
+        "type": "Gloves",
+        "levelRequired": 70,
+        "dexRequired": 62,
+        "intRequired": 62,
+        "evasion": 67,
+        "energyShield": 25
+      },
+      {
+        "itemName": "Expert Spiral Wraps",
+        "type": "Gloves",
+        "levelRequired": 75,
+        "dexRequired": 67,
+        "intRequired": 67,
+        "evasion": 73,
+        "energyShield": 28
+      }
+    ],
+    "Body Armour": [
+      {
+        "itemName": "Golden Mantle",
+        "type": "Body Armour",
+        "levelRequired": 20,
+        "strRequired": 8,
+        "dexRequired": 8,
+        "intRequired": 8,
+        "armour": 51,
+        "evasion": 44,
+        "energyShield": 21
+      },
+      {
+        "itemName": "Rusted Cuirass",
+        "type": "Body Armour",
+        "armour": 45
+      },
+      {
+        "itemName": "Fur Plate",
+        "type": "Body Armour",
+        "levelRequired": 4,
+        "strRequired": 10,
+        "armour": 60
+      },
+      {
+        "itemName": "Iron Cuirass",
+        "type": "Body Armour",
+        "levelRequired": 11,
+        "strRequired": 24,
+        "armour": 96
+      },
+      {
+        "itemName": "Raider Plate",
+        "type": "Body Armour",
+        "levelRequired": 16,
+        "strRequired": 34,
+        "armour": 121
+      },
+      {
+        "itemName": "Maraketh Cuirass",
+        "type": "Body Armour",
+        "levelRequired": 20,
+        "strRequired": 42,
+        "armour": 141
+      },
+      {
+        "itemName": "Steel Plate",
+        "type": "Body Armour",
+        "levelRequired": 27,
+        "strRequired": 57,
+        "armour": 177
+      },
+      {
+        "itemName": "Full Plate",
+        "type": "Body Armour",
+        "levelRequired": 33,
+        "strRequired": 68,
+        "armour": 208
+      },
+      {
+        "itemName": "Vaal Cuirass",
+        "type": "Body Armour",
+        "levelRequired": 37,
+        "strRequired": 77,
+        "armour": 228
+      },
+      {
+        "itemName": "Juggernaut Plate",
+        "type": "Body Armour",
+        "levelRequired": 45,
+        "strRequired": 94,
+        "armour": 269
+      },
+      {
+        "itemName": "Chieftain Cuirass",
+        "type": "Body Armour",
+        "levelRequired": 50,
+        "strRequired": 104,
+        "armour": 294
+      },
+      {
+        "itemName": "Colosseum Plate",
+        "type": "Body Armour",
+        "levelRequired": 52,
+        "strRequired": 107,
+        "armour": 304
+      },
+      {
+        "itemName": "Champion Cuirass",
+        "type": "Body Armour",
+        "levelRequired": 58,
+        "strRequired": 120,
+        "armour": 335
+      },
+      {
+        "itemName": "Glorious Plate",
+        "type": "Body Armour",
+        "levelRequired": 65,
+        "strRequired": 157,
+        "armour": 534
+      },
+      {
+        "itemName": "Conqueror Plate",
+        "type": "Body Armour",
+        "levelRequired": 68,
+        "strRequired": 157,
+        "armour": 445
+      },
+      {
+        "itemName": "Abyssal Cuirass",
+        "type": "Body Armour",
+        "levelRequired": 73,
+        "strRequired": 157,
+        "armour": 445
+      },
+      {
+        "itemName": "Leather Vest",
+        "type": "Body Armour",
+        "evasion": 30
+      },
+      {
+        "itemName": "Quilted Vest",
+        "type": "Body Armour",
+        "levelRequired": 4,
+        "dexRequired": 10,
+        "evasion": 44
+      },
+      {
+        "itemName": "Pathfinder Coat",
+        "type": "Body Armour",
+        "levelRequired": 11,
+        "dexRequired": 24,
+        "evasion": 78
+      },
+      {
+        "itemName": "Shrouded Vest",
+        "type": "Body Armour",
+        "levelRequired": 16,
+        "dexRequired": 34,
+        "evasion": 102
+      },
+      {
+        "itemName": "Rhoahide Coat",
+        "type": "Body Armour",
+        "levelRequired": 22,
+        "dexRequired": 47,
+        "evasion": 131
+      },
+      {
+        "itemName": "Studded Vest",
+        "type": "Body Armour",
+        "levelRequired": 26,
+        "dexRequired": 55,
+        "evasion": 150
+      },
+      {
+        "itemName": "Scout's Vest",
+        "type": "Body Armour",
+        "levelRequired": 33,
+        "dexRequired": 68,
+        "evasion": 184
+      },
+      {
+        "itemName": "Serpentscale Coat",
+        "type": "Body Armour",
+        "levelRequired": 36,
+        "dexRequired": 75,
+        "evasion": 198
+      },
+      {
+        "itemName": "Corsair Vest",
+        "type": "Body Armour",
+        "levelRequired": 45,
+        "dexRequired": 94,
+        "evasion": 242
+      },
+      {
+        "itemName": "Smuggler Coat",
+        "type": "Body Armour",
+        "levelRequired": 48,
+        "dexRequired": 99,
+        "evasion": 256
+      },
+      {
+        "itemName": "Strider Vest",
+        "type": "Body Armour",
+        "levelRequired": 52,
+        "dexRequired": 107,
+        "evasion": 275
+      },
+      {
+        "itemName": "Hardleather Coat",
+        "type": "Body Armour",
+        "levelRequired": 56,
+        "dexRequired": 115,
+        "evasion": 295
+      },
+      {
+        "itemName": "Exquisite Vest",
+        "type": "Body Armour",
+        "levelRequired": 65,
+        "dexRequired": 157,
+        "evasion": 487
+      },
+      {
+        "itemName": "Mail Coat",
+        "type": "Body Armour",
+        "levelRequired": 68,
+        "dexRequired": 157,
+        "evasion": 406
+      },
+      {
+        "itemName": "Armoured Vest",
+        "type": "Body Armour",
+        "levelRequired": 73,
+        "dexRequired": 157,
+        "evasion": 406
+      },
+      {
+        "itemName": "Tattered Robe",
+        "type": "Body Armour",
+        "energyShield": 28
+      },
+      {
+        "itemName": "Feathered Robe",
+        "type": "Body Armour",
+        "levelRequired": 5,
+        "intRequired": 13,
+        "energyShield": 35
+      },
+      {
+        "itemName": "Hexer's Robe",
+        "type": "Body Armour",
+        "levelRequired": 11,
+        "intRequired": 24,
+        "energyShield": 44
+      },
+      {
+        "itemName": "Bone Raiment",
+        "type": "Body Armour",
+        "levelRequired": 16,
+        "intRequired": 34,
+        "energyShield": 52
+      },
+      {
+        "itemName": "Silk Robe",
+        "type": "Body Armour",
+        "levelRequired": 22,
+        "intRequired": 47,
+        "energyShield": 61
+      },
+      {
+        "itemName": "Keth Raiment",
+        "type": "Body Armour",
+        "levelRequired": 28,
+        "intRequired": 59,
+        "energyShield": 70
+      },
+      {
+        "itemName": "Votive Raiment",
+        "type": "Body Armour",
+        "levelRequired": 33,
+        "intRequired": 68,
+        "energyShield": 78
+      },
+      {
+        "itemName": "Altar Robe",
+        "type": "Body Armour",
+        "levelRequired": 40,
+        "intRequired": 83,
+        "energyShield": 89
+      },
+      {
+        "itemName": "Elementalist Robe",
+        "type": "Body Armour",
+        "levelRequired": 45,
+        "intRequired": 94,
+        "energyShield": 97
+      },
+      {
+        "itemName": "Mystic Raiment",
+        "type": "Body Armour",
+        "levelRequired": 47,
+        "intRequired": 97,
+        "energyShield": 100
+      },
+      {
+        "itemName": "Imperial Robe",
+        "type": "Body Armour",
+        "levelRequired": 52,
+        "intRequired": 107,
+        "energyShield": 108
+      },
+      {
+        "itemName": "Plated Raiment",
+        "type": "Body Armour",
+        "levelRequired": 58,
+        "intRequired": 120,
+        "energyShield": 117
+      },
+      {
+        "itemName": "Havoc Raiment",
+        "type": "Body Armour",
+        "levelRequired": 65,
+        "intRequired": 157,
+        "energyShield": 184
+      },
+      {
+        "itemName": "Enlightened Robe",
+        "type": "Body Armour",
+        "levelRequired": 68,
+        "intRequired": 157,
+        "energyShield": 153
+      },
+      {
+        "itemName": "Arcane Robe",
+        "type": "Body Armour",
+        "levelRequired": 73,
+        "intRequired": 157,
+        "energyShield": 153
+      },
+      {
+        "itemName": "Chain Mail",
+        "type": "Body Armour",
+        "armour": 25,
+        "evasion": 16
+      },
+      {
+        "itemName": "Rogue Armour",
+        "type": "Body Armour",
+        "levelRequired": 11,
+        "strRequired": 14,
+        "dexRequired": 14,
+        "armour": 53,
+        "evasion": 43
+      },
+      {
+        "itemName": "Vagabond Armour",
+        "type": "Body Armour",
+        "levelRequired": 16,
+        "strRequired": 20,
+        "dexRequired": 20,
+        "armour": 67,
+        "evasion": 56
+      },
+      {
+        "itemName": "Cloaked Mail",
+        "type": "Body Armour",
+        "levelRequired": 26,
+        "strRequired": 31,
+        "dexRequired": 31,
+        "armour": 95,
+        "evasion": 83
+      },
+      {
+        "itemName": "Explorer Armour",
+        "type": "Body Armour",
+        "levelRequired": 33,
+        "strRequired": 39,
+        "dexRequired": 39,
+        "armour": 114,
+        "evasion": 101
+      },
+      {
+        "itemName": "Scale Mail",
+        "type": "Body Armour",
+        "levelRequired": 37,
+        "strRequired": 43,
+        "dexRequired": 43,
+        "armour": 125,
+        "evasion": 112
+      },
+      {
+        "itemName": "Knight Armour",
+        "type": "Body Armour",
+        "levelRequired": 45,
+        "strRequired": 51,
+        "dexRequired": 51,
+        "armour": 148,
+        "evasion": 133
+      },
+      {
+        "itemName": "Ancestral Mail",
+        "type": "Body Armour",
+        "levelRequired": 50,
+        "strRequired": 57,
+        "dexRequired": 57,
+        "armour": 162,
+        "evasion": 146
+      },
+      {
+        "itemName": "Lamellar Mail",
+        "type": "Body Armour",
+        "levelRequired": 52,
+        "strRequired": 59,
+        "dexRequired": 59,
+        "armour": 167,
+        "evasion": 151
+      },
+      {
+        "itemName": "Gladiator Armour",
+        "type": "Body Armour",
+        "levelRequired": 58,
+        "strRequired": 66,
+        "dexRequired": 66,
+        "armour": 184,
+        "evasion": 167
+      },
+      {
+        "itemName": "Heroic Armour",
+        "type": "Body Armour",
+        "levelRequired": 65,
+        "strRequired": 86,
+        "dexRequired": 86,
+        "armour": 245,
+        "evasion": 223
+      },
+      {
+        "itemName": "Tournament Mail",
+        "type": "Body Armour",
+        "levelRequired": 68,
+        "strRequired": 86,
+        "dexRequired": 86,
+        "armour": 245,
+        "evasion": 223
+      },
+      {
+        "itemName": "Tournament Mail",
+        "type": "Body Armour",
+        "levelRequired": 68,
+        "strRequired": 86,
+        "dexRequired": 86,
+        "armour": 245,
+        "evasion": 223
+      },
+      {
+        "itemName": "Tournament Mail",
+        "type": "Body Armour",
+        "levelRequired": 68,
+        "strRequired": 86,
+        "dexRequired": 86,
+        "armour": 245,
+        "evasion": 223
+      },
+      {
+        "itemName": "Slayer Armour",
+        "type": "Body Armour",
+        "levelRequired": 73,
+        "strRequired": 86,
+        "dexRequired": 86,
+        "armour": 294,
+        "evasion": 268
+      },
+      {
+        "itemName": "Pilgrim Vestments",
+        "type": "Body Armour",
+        "armour": 25,
+        "energyShield": 16
+      },
+      {
+        "itemName": "Pelt Mantle",
+        "type": "Body Armour",
+        "levelRequired": 10,
+        "strRequired": 14,
+        "intRequired": 14,
+        "armour": 50,
+        "energyShield": 23
+      },
+      {
+        "itemName": "Mail Vestments",
+        "type": "Body Armour",
+        "levelRequired": 16,
+        "strRequired": 20,
+        "intRequired": 20,
+        "armour": 67,
+        "energyShield": 28
+      },
+      {
+        "itemName": "Shaman Mantle",
+        "type": "Body Armour",
+        "levelRequired": 28,
+        "strRequired": 33,
+        "intRequired": 33,
+        "armour": 100,
+        "energyShield": 39
+      },
+      {
+        "itemName": "Ironclad Vestments",
+        "type": "Body Armour",
+        "levelRequired": 33,
+        "strRequired": 39,
+        "intRequired": 39,
+        "armour": 114,
+        "energyShield": 43
+      },
+      {
+        "itemName": "Sacrificial Mantle",
+        "type": "Body Armour",
+        "levelRequired": 36,
+        "strRequired": 41,
+        "intRequired": 41,
+        "armour": 123,
+        "energyShield": 46
+      },
+      {
+        "itemName": "Cleric Vestments",
+        "type": "Body Armour",
+        "levelRequired": 45,
+        "strRequired": 51,
+        "intRequired": 51,
+        "armour": 148,
+        "energyShield": 53
+      },
+      {
+        "itemName": "Tideseer Mantle",
+        "type": "Body Armour",
+        "levelRequired": 51,
+        "strRequired": 59,
+        "intRequired": 59,
+        "armour": 165,
+        "energyShield": 58
+      },
+      {
+        "itemName": "Gilded Vestments",
+        "type": "Body Armour",
+        "levelRequired": 52,
+        "strRequired": 59,
+        "intRequired": 59,
+        "armour": 167,
+        "energyShield": 59
+      },
+      {
+        "itemName": "Venerated Mantle",
+        "type": "Body Armour",
+        "levelRequired": 54,
+        "strRequired": 61,
+        "intRequired": 61,
+        "armour": 173,
+        "energyShield": 61
+      },
+      {
+        "itemName": "Revered Vestments",
+        "type": "Body Armour",
+        "levelRequired": 65,
+        "strRequired": 86,
+        "intRequired": 86,
+        "armour": 245,
+        "energyShield": 84
+      },
+      {
+        "itemName": "Corvus Mantle",
+        "type": "Body Armour",
+        "levelRequired": 68,
+        "strRequired": 86,
+        "intRequired": 86,
+        "armour": 245,
+        "energyShield": 84
+      },
+      {
+        "itemName": "Zenith Vestments",
+        "type": "Body Armour",
+        "levelRequired": 73,
+        "strRequired": 86,
+        "intRequired": 86,
+        "armour": 294,
+        "energyShield": 101
+      },
+      {
+        "itemName": "Hermit Garb",
+        "type": "Body Armour",
+        "evasion": 16,
+        "energyShield": 16
+      },
+      {
+        "itemName": "Waxed Jacket",
+        "type": "Body Armour",
+        "levelRequired": 11,
+        "dexRequired": 14,
+        "intRequired": 14,
+        "evasion": 43,
+        "energyShield": 24
+      },
+      {
+        "itemName": "Marabout Garb",
+        "type": "Body Armour",
+        "levelRequired": 16,
+        "dexRequired": 20,
+        "intRequired": 20,
+        "evasion": 56,
+        "energyShield": 28
+      },
+      {
+        "itemName": "Wayfarer Jacket",
+        "type": "Body Armour",
+        "levelRequired": 28,
+        "dexRequired": 33,
+        "intRequired": 33,
+        "evasion": 88,
+        "energyShield": 39
+      },
+      {
+        "itemName": "Anchorite Garb",
+        "type": "Body Armour",
+        "levelRequired": 33,
+        "dexRequired": 39,
+        "intRequired": 39,
+        "evasion": 101,
+        "energyShield": 43
+      },
+      {
+        "itemName": "Scalper's Jacket",
+        "type": "Body Armour",
+        "levelRequired": 39,
+        "dexRequired": 45,
+        "intRequired": 45,
+        "evasion": 117,
+        "energyShield": 48
+      },
+      {
+        "itemName": "Scoundrel Jacket",
+        "type": "Body Armour",
+        "levelRequired": 45,
+        "dexRequired": 51,
+        "intRequired": 51,
+        "evasion": 133,
+        "energyShield": 53
+      },
+      {
+        "itemName": "Ascetic Garb",
+        "type": "Body Armour",
+        "levelRequired": 51,
+        "dexRequired": 59,
+        "intRequired": 59,
+        "evasion": 149,
+        "energyShield": 58
+      },
+      {
+        "itemName": "Clandestine Jacket",
+        "type": "Body Armour",
+        "levelRequired": 52,
+        "dexRequired": 59,
+        "intRequired": 59,
+        "evasion": 151,
+        "energyShield": 59
+      },
+      {
+        "itemName": "Monastic Garb",
+        "type": "Body Armour",
+        "levelRequired": 56,
+        "dexRequired": 64,
+        "intRequired": 64,
+        "evasion": 162,
+        "energyShield": 63
+      },
+      {
+        "itemName": "Torment Jacket",
+        "type": "Body Armour",
+        "levelRequired": 65,
+        "dexRequired": 86,
+        "intRequired": 86,
+        "evasion": 268,
+        "energyShield": 101
+      },
+      {
+        "itemName": "Devout Garb",
+        "type": "Body Armour",
+        "levelRequired": 68,
+        "dexRequired": 86,
+        "intRequired": 86,
+        "evasion": 223,
+        "energyShield": 84
+      },
+      {
+        "itemName": "Assassin Garb",
+        "type": "Body Armour",
+        "levelRequired": 73,
+        "dexRequired": 86,
+        "intRequired": 86,
+        "evasion": 223,
+        "energyShield": 84
+      },
+      {
+        "itemName": "Garment",
+        "type": "Body Armour"
+      },
+      {
+        "itemName": "Grand Regalia",
+        "type": "Body Armour",
+        "levelRequired": 65,
+        "strRequired": 51,
+        "dexRequired": 51,
+        "intRequired": 51,
+        "armour": 135,
+        "evasion": 123,
+        "energyShield": 46
+      },
+      {
+        "itemName": "Advanced Fur Plate",
+        "type": "Body Armour",
+        "levelRequired": 45,
+        "strRequired": 94,
+        "armour": 269
+      },
+      {
+        "itemName": "Advanced Iron Cuirass",
+        "type": "Body Armour",
+        "levelRequired": 48,
+        "strRequired": 99,
+        "armour": 284
+      },
+      {
+        "itemName": "Advanced Maraketh Cuirass",
+        "type": "Body Armour",
+        "levelRequired": 51,
+        "strRequired": 105,
+        "armour": 299
+      },
+      {
+        "itemName": "Advanced Steel Plate",
+        "type": "Body Armour",
+        "levelRequired": 55,
+        "strRequired": 113,
+        "armour": 320
+      },
+      {
+        "itemName": "Advanced Full Plate",
+        "type": "Body Armour",
+        "levelRequired": 59,
+        "strRequired": 122,
+        "armour": 340
+      },
+      {
+        "itemName": "Advanced Vaal Cuirass",
+        "type": "Body Armour",
+        "levelRequired": 62,
+        "strRequired": 128,
+        "armour": 355
+      },
+      {
+        "itemName": "Advanced Quilted Vest",
+        "type": "Body Armour",
+        "levelRequired": 45,
+        "dexRequired": 94,
+        "evasion": 242
+      },
+      {
+        "itemName": "Advanced Pathfinder Coat",
+        "type": "Body Armour",
+        "levelRequired": 48,
+        "dexRequired": 99,
+        "evasion": 256
+      },
+      {
+        "itemName": "Advanced Rhoahide Coat",
+        "type": "Body Armour",
+        "levelRequired": 51,
+        "dexRequired": 105,
+        "evasion": 271
+      },
+      {
+        "itemName": "Advanced Studded Vest",
+        "type": "Body Armour",
+        "levelRequired": 55,
+        "dexRequired": 113,
+        "evasion": 290
+      },
+      {
+        "itemName": "Advanced Scout's Vest",
+        "type": "Body Armour",
+        "levelRequired": 59,
+        "dexRequired": 122,
+        "evasion": 309
+      },
+      {
+        "itemName": "Advanced Serpentscale Coat",
+        "type": "Body Armour",
+        "levelRequired": 62,
+        "dexRequired": 128,
+        "evasion": 324
+      },
+      {
+        "itemName": "Advanced Feathered Robe",
+        "type": "Body Armour",
+        "levelRequired": 45,
+        "intRequired": 94,
+        "energyShield": 97
+      },
+      {
+        "itemName": "Advanced Hexer's Robe",
+        "type": "Body Armour",
+        "levelRequired": 48,
+        "intRequired": 99,
+        "energyShield": 101
+      },
+      {
+        "itemName": "Advanced Silk Robe",
+        "type": "Body Armour",
+        "levelRequired": 51,
+        "intRequired": 105,
+        "energyShield": 106
+      },
+      {
+        "itemName": "Advanced Keth Raiment",
+        "type": "Body Armour",
+        "levelRequired": 55,
+        "intRequired": 113,
+        "energyShield": 112
+      },
+      {
+        "itemName": "Advanced Votive Raiment",
+        "type": "Body Armour",
+        "levelRequired": 59,
+        "intRequired": 122,
+        "energyShield": 119
+      },
+      {
+        "itemName": "Advanced Altar Robe",
+        "type": "Body Armour",
+        "levelRequired": 62,
+        "intRequired": 128,
+        "energyShield": 123
+      },
+      {
+        "itemName": "Advanced Chain Mail",
+        "type": "Body Armour",
+        "levelRequired": 45,
+        "strRequired": 51,
+        "dexRequired": 51,
+        "armour": 148,
+        "evasion": 133
+      },
+      {
+        "itemName": "Advanced Rogue Armour",
+        "type": "Body Armour",
+        "levelRequired": 48,
+        "strRequired": 55,
+        "dexRequired": 55,
+        "armour": 156,
+        "evasion": 141
+      },
+      {
+        "itemName": "Advanced Vagabond Armour",
+        "type": "Body Armour",
+        "levelRequired": 51,
+        "strRequired": 59,
+        "dexRequired": 59,
+        "armour": 165,
+        "evasion": 149
+      },
+      {
+        "itemName": "Advanced Cloaked Mail",
+        "type": "Body Armour",
+        "levelRequired": 55,
+        "strRequired": 62,
+        "dexRequired": 62,
+        "armour": 176,
+        "evasion": 159
+      },
+      {
+        "itemName": "Advanced Explorer Armour",
+        "type": "Body Armour",
+        "levelRequired": 59,
+        "strRequired": 67,
+        "dexRequired": 67,
+        "armour": 187,
+        "evasion": 170
+      },
+      {
+        "itemName": "Advanced Scale Mail",
+        "type": "Body Armour",
+        "levelRequired": 62,
+        "strRequired": 70,
+        "dexRequired": 70,
+        "armour": 195,
+        "evasion": 178
+      },
+      {
+        "itemName": "Advanced Pilgrim Vestments",
+        "type": "Body Armour",
+        "levelRequired": 45,
+        "strRequired": 51,
+        "intRequired": 51,
+        "armour": 148,
+        "energyShield": 53
+      },
+      {
+        "itemName": "Advanced Pelt Mantle",
+        "type": "Body Armour",
+        "levelRequired": 48,
+        "strRequired": 55,
+        "intRequired": 55,
+        "armour": 156,
+        "energyShield": 56
+      },
+      {
+        "itemName": "Advanced Mail Vestments",
+        "type": "Body Armour",
+        "levelRequired": 51,
+        "strRequired": 59,
+        "intRequired": 59,
+        "armour": 165,
+        "energyShield": 58
+      },
+      {
+        "itemName": "Advanced Shaman Mantle",
+        "type": "Body Armour",
+        "levelRequired": 55,
+        "strRequired": 62,
+        "intRequired": 62,
+        "armour": 176,
+        "energyShield": 62
+      },
+      {
+        "itemName": "Advanced Ironclad Vestments",
+        "type": "Body Armour",
+        "levelRequired": 59,
+        "strRequired": 67,
+        "intRequired": 67,
+        "armour": 187,
+        "energyShield": 65
+      },
+      {
+        "itemName": "Advanced Sacrificial Mantle",
+        "type": "Body Armour",
+        "levelRequired": 62,
+        "strRequired": 70,
+        "intRequired": 70,
+        "armour": 195,
+        "energyShield": 68
+      },
+      {
+        "itemName": "Advanced Hermit Garb",
+        "type": "Body Armour",
+        "levelRequired": 45,
+        "dexRequired": 51,
+        "intRequired": 51,
+        "evasion": 133,
+        "energyShield": 53
+      },
+      {
+        "itemName": "Advanced Waxed Jacket",
+        "type": "Body Armour",
+        "levelRequired": 48,
+        "dexRequired": 55,
+        "intRequired": 55,
+        "evasion": 141,
+        "energyShield": 56
+      },
+      {
+        "itemName": "Advanced Marabout Garb",
+        "type": "Body Armour",
+        "levelRequired": 51,
+        "dexRequired": 59,
+        "intRequired": 59,
+        "evasion": 149,
+        "energyShield": 58
+      },
+      {
+        "itemName": "Advanced Wayfarer Jacket",
+        "type": "Body Armour",
+        "levelRequired": 55,
+        "dexRequired": 62,
+        "intRequired": 62,
+        "evasion": 159,
+        "energyShield": 62
+      },
+      {
+        "itemName": "Advanced Anchorite Garb",
+        "type": "Body Armour",
+        "levelRequired": 59,
+        "dexRequired": 67,
+        "intRequired": 67,
+        "evasion": 170,
+        "energyShield": 65
+      },
+      {
+        "itemName": "Advanced Scalper's Jacket",
+        "type": "Body Armour",
+        "levelRequired": 62,
+        "dexRequired": 70,
+        "intRequired": 70,
+        "evasion": 178,
+        "energyShield": 68
+      },
+      {
+        "itemName": "Expert Iron Cuirass",
+        "type": "Body Armour",
+        "levelRequired": 65,
+        "strRequired": 157,
+        "armour": 534
+      },
+      {
+        "itemName": "Expert Steel Plate",
+        "type": "Body Armour",
+        "levelRequired": 70,
+        "strRequired": 157,
+        "armour": 445
+      },
+      {
+        "itemName": "Expert Vaal Cuirass",
+        "type": "Body Armour",
+        "levelRequired": 75,
+        "strRequired": 157,
+        "armour": 445
+      },
+      {
+        "itemName": "Expert Pathfinder Coat",
+        "type": "Body Armour",
+        "levelRequired": 65,
+        "dexRequired": 157,
+        "evasion": 406
+      },
+      {
+        "itemName": "Expert Studded Vest",
+        "type": "Body Armour",
+        "levelRequired": 70,
+        "dexRequired": 157,
+        "evasion": 487
+      },
+      {
+        "itemName": "Expert Serpentscale Coat",
+        "type": "Body Armour",
+        "levelRequired": 75,
+        "dexRequired": 157,
+        "evasion": 406
+      },
+      {
+        "itemName": "Expert Hexer's Robe",
+        "type": "Body Armour",
+        "levelRequired": 65,
+        "intRequired": 157,
+        "energyShield": 184
+      },
+      {
+        "itemName": "Expert Keth Raiment",
+        "type": "Body Armour",
+        "levelRequired": 70,
+        "intRequired": 157,
+        "energyShield": 153
+      },
+      {
+        "itemName": "Expert Altar Robe",
+        "type": "Body Armour",
+        "levelRequired": 75,
+        "intRequired": 157,
+        "energyShield": 153
+      },
+      {
+        "itemName": "Expert Rogue Armour",
+        "type": "Body Armour",
+        "levelRequired": 65,
+        "strRequired": 86,
+        "dexRequired": 86,
+        "armour": 245,
+        "evasion": 223
+      },
+      {
+        "itemName": "Expert Cloaked Mail",
+        "type": "Body Armour",
+        "levelRequired": 70,
+        "strRequired": 86,
+        "dexRequired": 86,
+        "armour": 245,
+        "evasion": 223
+      },
+      {
+        "itemName": "Expert Cloaked Mail",
+        "type": "Body Armour",
+        "levelRequired": 70,
+        "strRequired": 86,
+        "dexRequired": 86,
+        "armour": 245,
+        "evasion": 223
+      },
+      {
+        "itemName": "Expert Cloaked Mail",
+        "type": "Body Armour",
+        "levelRequired": 70,
+        "strRequired": 86,
+        "dexRequired": 86,
+        "armour": 245,
+        "evasion": 223
+      },
+      {
+        "itemName": "Expert Scale Mail",
+        "type": "Body Armour",
+        "levelRequired": 75,
+        "strRequired": 86,
+        "dexRequired": 86,
+        "armour": 294,
+        "evasion": 268
+      },
+      {
+        "itemName": "Expert Pelt Mantle",
+        "type": "Body Armour",
+        "levelRequired": 65,
+        "strRequired": 86,
+        "intRequired": 86,
+        "armour": 294,
+        "energyShield": 101
+      },
+      {
+        "itemName": "Expert Shaman Mantle",
+        "type": "Body Armour",
+        "levelRequired": 70,
+        "strRequired": 86,
+        "intRequired": 86,
+        "armour": 245,
+        "energyShield": 84
+      },
+      {
+        "itemName": "Expert Sacrificial Mantle",
+        "type": "Body Armour",
+        "levelRequired": 75,
+        "strRequired": 86,
+        "intRequired": 86,
+        "armour": 245,
+        "energyShield": 84
+      },
+      {
+        "itemName": "Expert Waxed Jacket",
+        "type": "Body Armour",
+        "levelRequired": 65,
+        "dexRequired": 86,
+        "intRequired": 86,
+        "evasion": 268,
+        "energyShield": 101
+      },
+      {
+        "itemName": "Expert Wayfarer Jacket",
+        "type": "Body Armour",
+        "levelRequired": 70,
+        "dexRequired": 86,
+        "intRequired": 86,
+        "evasion": 223,
+        "energyShield": 84
+      },
+      {
+        "itemName": "Expert Scalper's Jacket",
+        "type": "Body Armour",
+        "levelRequired": 75,
+        "dexRequired": 86,
+        "intRequired": 86,
+        "evasion": 223,
+        "energyShield": 84
+      }
+    ],
+    "Helmet": [
+      {
+        "itemName": "Golden Wreath",
+        "type": "Helmet",
+        "levelRequired": 12
+      },
+      {
+        "itemName": "Golden Visage",
+        "type": "Helmet",
+        "levelRequired": 12
+      },
+      {
+        "itemName": "Rusted Greathelm",
+        "type": "Helmet",
+        "armour": 29
+      },
+      {
+        "itemName": "Soldier Greathelm",
+        "type": "Helmet",
+        "levelRequired": 12,
+        "strRequired": 23,
+        "armour": 66
+      },
+      {
+        "itemName": "Wrapped Greathelm",
+        "type": "Helmet",
+        "levelRequired": 16,
+        "strRequired": 30,
+        "armour": 79
+      },
+      {
+        "itemName": "Spired Greathelm",
+        "type": "Helmet",
+        "levelRequired": 27,
+        "strRequired": 50,
+        "armour": 116
+      },
+      {
+        "itemName": "Elite Greathelm",
+        "type": "Helmet",
+        "levelRequired": 33,
+        "strRequired": 61,
+        "armour": 136
+      },
+      {
+        "itemName": "Warrior Greathelm",
+        "type": "Helmet",
+        "levelRequired": 36,
+        "strRequired": 66,
+        "armour": 146
+      },
+      {
+        "itemName": "Commander Greathelm",
+        "type": "Helmet",
+        "levelRequired": 45,
+        "strRequired": 83,
+        "armour": 176
+      },
+      {
+        "itemName": "Fierce Greathelm",
+        "type": "Helmet",
+        "levelRequired": 51,
+        "strRequired": 94,
+        "armour": 196
+      },
+      {
+        "itemName": "Dueling Greathelm",
+        "type": "Helmet",
+        "levelRequired": 52,
+        "strRequired": 95,
+        "armour": 200
+      },
+      {
+        "itemName": "Goliath Greathelm",
+        "type": "Helmet",
+        "levelRequired": 57,
+        "strRequired": 104,
+        "armour": 216
+      },
+      {
+        "itemName": "Guardian Greathelm",
+        "type": "Helmet",
+        "levelRequired": 65,
+        "strRequired": 118,
+        "armour": 243
+      },
+      {
+        "itemName": "Shabby Hood",
+        "type": "Helmet",
+        "evasion": 19
+      },
+      {
+        "itemName": "Felt Cap",
+        "type": "Helmet",
+        "levelRequired": 10,
+        "dexRequired": 20,
+        "evasion": 48
+      },
+      {
+        "itemName": "Lace Hood",
+        "type": "Helmet",
+        "levelRequired": 16,
+        "dexRequired": 30,
+        "evasion": 67
+      },
+      {
+        "itemName": "Swathed Cap",
+        "type": "Helmet",
+        "levelRequired": 26,
+        "dexRequired": 49,
+        "evasion": 98
+      },
+      {
+        "itemName": "Hunter Hood",
+        "type": "Helmet",
+        "levelRequired": 33,
+        "dexRequired": 61,
+        "evasion": 121
+      },
+      {
+        "itemName": "Viper Cap",
+        "type": "Helmet",
+        "levelRequired": 38,
+        "dexRequired": 70,
+        "evasion": 136
+      },
+      {
+        "itemName": "Corsair Cap",
+        "type": "Helmet",
+        "levelRequired": 45,
+        "dexRequired": 83,
+        "evasion": 158
+      },
+      {
+        "itemName": "Leatherbound Hood",
+        "type": "Helmet",
+        "levelRequired": 51,
+        "dexRequired": 94,
+        "evasion": 177
+      },
+      {
+        "itemName": "Velvet Cap",
+        "type": "Helmet",
+        "levelRequired": 52,
+        "dexRequired": 95,
+        "evasion": 181
+      },
+      {
+        "itemName": "Covert Hood",
+        "type": "Helmet",
+        "levelRequired": 56,
+        "dexRequired": 102,
+        "evasion": 193
+      },
+      {
+        "itemName": "Armoured Cap",
+        "type": "Helmet",
+        "levelRequired": 65,
+        "dexRequired": 118,
+        "evasion": 222
+      },
+      {
+        "itemName": "Twig Circlet",
+        "type": "Helmet",
+        "energyShield": 19
+      },
+      {
+        "itemName": "Wicker Tiara",
+        "type": "Helmet",
+        "levelRequired": 10,
+        "intRequired": 20,
+        "energyShield": 28
+      },
+      {
+        "itemName": "Beaded Circlet",
+        "type": "Helmet",
+        "levelRequired": 16,
+        "intRequired": 30,
+        "energyShield": 34
+      },
+      {
+        "itemName": "Chain Tiara",
+        "type": "Helmet",
+        "levelRequired": 26,
+        "intRequired": 49,
+        "energyShield": 44
+      },
+      {
+        "itemName": "Feathered Tiara",
+        "type": "Helmet",
+        "levelRequired": 33,
+        "intRequired": 61,
+        "energyShield": 51
+      },
+      {
+        "itemName": "Gold Circlet",
+        "type": "Helmet",
+        "levelRequired": 40,
+        "intRequired": 74,
+        "energyShield": 58
+      },
+      {
+        "itemName": "Coral Circlet",
+        "type": "Helmet",
+        "levelRequired": 45,
+        "intRequired": 83,
+        "energyShield": 63
+      },
+      {
+        "itemName": "Jade Tiara",
+        "type": "Helmet",
+        "levelRequired": 50,
+        "intRequired": 92,
+        "energyShield": 69
+      },
+      {
+        "itemName": "Noble Circlet",
+        "type": "Helmet",
+        "levelRequired": 52,
+        "intRequired": 95,
+        "energyShield": 71
+      },
+      {
+        "itemName": "Twilight Tiara",
+        "type": "Helmet",
+        "levelRequired": 58,
+        "intRequired": 106,
+        "energyShield": 77
+      },
+      {
+        "itemName": "Magus Tiara",
+        "type": "Helmet",
+        "levelRequired": 65,
+        "intRequired": 118,
+        "energyShield": 84
+      },
+      {
+        "itemName": "Brimmed Helm",
+        "type": "Helmet",
+        "levelRequired": 5,
+        "strRequired": 7,
+        "dexRequired": 7,
+        "armour": 23,
+        "evasion": 18
+      },
+      {
+        "itemName": "Guarded Helm",
+        "type": "Helmet",
+        "levelRequired": 11,
+        "strRequired": 13,
+        "dexRequired": 13,
+        "armour": 34,
+        "evasion": 28
+      },
+      {
+        "itemName": "Visored Helm",
+        "type": "Helmet",
+        "levelRequired": 16,
+        "strRequired": 18,
+        "dexRequired": 18,
+        "armour": 44,
+        "evasion": 37
+      },
+      {
+        "itemName": "Cowled Helm",
+        "type": "Helmet",
+        "levelRequired": 26,
+        "strRequired": 27,
+        "dexRequired": 27,
+        "armour": 62,
+        "evasion": 54
+      },
+      {
+        "itemName": "Shielded Helm",
+        "type": "Helmet",
+        "levelRequired": 33,
+        "strRequired": 34,
+        "dexRequired": 34,
+        "armour": 75,
+        "evasion": 66
+      },
+      {
+        "itemName": "Closed Helm",
+        "type": "Helmet",
+        "levelRequired": 45,
+        "strRequired": 46,
+        "dexRequired": 46,
+        "armour": 97,
+        "evasion": 87
+      },
+      {
+        "itemName": "Decorated Helm",
+        "type": "Helmet",
+        "levelRequired": 52,
+        "strRequired": 53,
+        "dexRequired": 53,
+        "armour": 110,
+        "evasion": 99
+      },
+      {
+        "itemName": "Gallant Helm",
+        "type": "Helmet",
+        "levelRequired": 65,
+        "strRequired": 65,
+        "dexRequired": 65,
+        "armour": 134,
+        "evasion": 122
+      },
+      {
+        "itemName": "Iron Crown",
+        "type": "Helmet",
+        "levelRequired": 5,
+        "strRequired": 7,
+        "intRequired": 7,
+        "armour": 23,
+        "energyShield": 12
+      },
+      {
+        "itemName": "Horned Crown",
+        "type": "Helmet",
+        "levelRequired": 10,
+        "strRequired": 12,
+        "intRequired": 12,
+        "armour": 33,
+        "energyShield": 15
+      },
+      {
+        "itemName": "Cultist Crown",
+        "type": "Helmet",
+        "levelRequired": 16,
+        "strRequired": 18,
+        "intRequired": 18,
+        "armour": 44,
+        "energyShield": 19
+      },
+      {
+        "itemName": "Martyr Crown",
+        "type": "Helmet",
+        "levelRequired": 28,
+        "strRequired": 30,
+        "intRequired": 30,
+        "armour": 66,
+        "energyShield": 25
+      },
+      {
+        "itemName": "Heavy Crown",
+        "type": "Helmet",
+        "levelRequired": 33,
+        "strRequired": 34,
+        "intRequired": 34,
+        "armour": 75,
+        "energyShield": 28
+      },
+      {
+        "itemName": "Spiritbone Crown",
+        "type": "Helmet",
+        "levelRequired": 45,
+        "strRequired": 46,
+        "intRequired": 46,
+        "armour": 97,
+        "energyShield": 35
+      },
+      {
+        "itemName": "Lavish Crown",
+        "type": "Helmet",
+        "levelRequired": 52,
+        "strRequired": 53,
+        "intRequired": 53,
+        "armour": 110,
+        "energyShield": 39
+      },
+      {
+        "itemName": "Templar Crown",
+        "type": "Helmet",
+        "levelRequired": 65,
+        "strRequired": 65,
+        "intRequired": 65,
+        "armour": 134,
+        "energyShield": 46
+      },
+      {
+        "itemName": "Hewn Mask",
+        "type": "Helmet",
+        "levelRequired": 5,
+        "dexRequired": 7,
+        "intRequired": 7,
+        "evasion": 18,
+        "energyShield": 12
+      },
+      {
+        "itemName": "Face Mask",
+        "type": "Helmet",
+        "levelRequired": 10,
+        "dexRequired": 12,
+        "intRequired": 12,
+        "evasion": 26,
+        "energyShield": 15
+      },
+      {
+        "itemName": "Hooded Mask",
+        "type": "Helmet",
+        "levelRequired": 16,
+        "dexRequired": 18,
+        "intRequired": 18,
+        "evasion": 37,
+        "energyShield": 19
+      },
+      {
+        "itemName": "Veiled Mask",
+        "type": "Helmet",
+        "levelRequired": 28,
+        "dexRequired": 30,
+        "intRequired": 30,
+        "evasion": 58,
+        "energyShield": 25
+      },
+      {
+        "itemName": "Tribal Mask",
+        "type": "Helmet",
+        "levelRequired": 33,
+        "dexRequired": 34,
+        "intRequired": 34,
+        "evasion": 66,
+        "energyShield": 28
+      },
+      {
+        "itemName": "Solid Mask",
+        "type": "Helmet",
+        "levelRequired": 45,
+        "dexRequired": 46,
+        "intRequired": 46,
+        "evasion": 87,
+        "energyShield": 35
+      },
+      {
+        "itemName": "Shaded Mask",
+        "type": "Helmet",
+        "levelRequired": 52,
+        "dexRequired": 53,
+        "intRequired": 53,
+        "evasion": 99,
+        "energyShield": 39
+      },
+      {
+        "itemName": "Death Mask",
+        "type": "Helmet",
+        "levelRequired": 65,
+        "dexRequired": 65,
+        "intRequired": 65,
+        "evasion": 122,
+        "energyShield": 46
+      },
+      {
+        "itemName": "Grand Visage",
+        "type": "Helmet",
+        "levelRequired": 65,
+        "strRequired": 46,
+        "dexRequired": 46,
+        "intRequired": 46,
+        "armour": 88,
+        "evasion": 80,
+        "energyShield": 30
+      },
+      {
+        "itemName": "Advanced Rusted Greathelm",
+        "type": "Helmet",
+        "levelRequired": 45,
+        "strRequired": 83,
+        "armour": 176
+      },
+      {
+        "itemName": "Advanced Soldier Greathelm",
+        "type": "Helmet",
+        "levelRequired": 48,
+        "strRequired": 88,
+        "armour": 186
+      },
+      {
+        "itemName": "Advanced Wrapped Greathelm",
+        "type": "Helmet",
+        "levelRequired": 51,
+        "strRequired": 94,
+        "armour": 196
+      },
+      {
+        "itemName": "Advanced Spired Greathelm",
+        "type": "Helmet",
+        "levelRequired": 55,
+        "strRequired": 101,
+        "armour": 210
+      },
+      {
+        "itemName": "Advanced Elite Greathelm",
+        "type": "Helmet",
+        "levelRequired": 59,
+        "strRequired": 108,
+        "armour": 223
+      },
+      {
+        "itemName": "Advanced Shabby Hood",
+        "type": "Helmet",
+        "levelRequired": 45,
+        "dexRequired": 83,
+        "evasion": 158
+      },
+      {
+        "itemName": "Advanced Felt Cap",
+        "type": "Helmet",
+        "levelRequired": 48,
+        "dexRequired": 88,
+        "evasion": 168
+      },
+      {
+        "itemName": "Advanced Lace Hood",
+        "type": "Helmet",
+        "levelRequired": 51,
+        "dexRequired": 94,
+        "evasion": 177
+      },
+      {
+        "itemName": "Advanced Swathed Cap",
+        "type": "Helmet",
+        "levelRequired": 55,
+        "dexRequired": 101,
+        "evasion": 190
+      },
+      {
+        "itemName": "Advanced Hunter Hood",
+        "type": "Helmet",
+        "levelRequired": 59,
+        "dexRequired": 108,
+        "evasion": 203
+      },
+      {
+        "itemName": "Advanced Twig Circlet",
+        "type": "Helmet",
+        "levelRequired": 45,
+        "intRequired": 83,
+        "energyShield": 63
+      },
+      {
+        "itemName": "Advanced Wicker Tiara",
+        "type": "Helmet",
+        "levelRequired": 48,
+        "intRequired": 88,
+        "energyShield": 67
+      },
+      {
+        "itemName": "Advanced Beaded Circlet",
+        "type": "Helmet",
+        "levelRequired": 51,
+        "intRequired": 94,
+        "energyShield": 70
+      },
+      {
+        "itemName": "Advanced Chain Tiara",
+        "type": "Helmet",
+        "levelRequired": 55,
+        "intRequired": 101,
+        "energyShield": 74
+      },
+      {
+        "itemName": "Advanced Feathered Tiara",
+        "type": "Helmet",
+        "levelRequired": 59,
+        "intRequired": 108,
+        "energyShield": 78
+      },
+      {
+        "itemName": "Advanced Brimmed Helm",
+        "type": "Helmet",
+        "levelRequired": 45,
+        "strRequired": 46,
+        "dexRequired": 46,
+        "armour": 97,
+        "evasion": 87
+      },
+      {
+        "itemName": "Advanced Guarded Helm",
+        "type": "Helmet",
+        "levelRequired": 48,
+        "strRequired": 49,
+        "dexRequired": 49,
+        "armour": 102,
+        "evasion": 92
+      },
+      {
+        "itemName": "Advanced Visored Helm",
+        "type": "Helmet",
+        "levelRequired": 51,
+        "strRequired": 52,
+        "dexRequired": 52,
+        "armour": 108,
+        "evasion": 98
+      },
+      {
+        "itemName": "Advanced Cowled Helm",
+        "type": "Helmet",
+        "levelRequired": 55,
+        "strRequired": 55,
+        "dexRequired": 55,
+        "armour": 115,
+        "evasion": 105
+      },
+      {
+        "itemName": "Advanced Shielded Helm",
+        "type": "Helmet",
+        "levelRequired": 59,
+        "strRequired": 59,
+        "dexRequired": 59,
+        "armour": 123,
+        "evasion": 111
+      },
+      {
+        "itemName": "Advanced Iron Crown",
+        "type": "Helmet",
+        "levelRequired": 45,
+        "strRequired": 46,
+        "intRequired": 46,
+        "armour": 97,
+        "energyShield": 35
+      },
+      {
+        "itemName": "Advanced Horned Crown",
+        "type": "Helmet",
+        "levelRequired": 48,
+        "strRequired": 49,
+        "intRequired": 49,
+        "armour": 102,
+        "energyShield": 37
+      },
+      {
+        "itemName": "Advanced Cultist Crown",
+        "type": "Helmet",
+        "levelRequired": 51,
+        "strRequired": 52,
+        "intRequired": 52,
+        "armour": 108,
+        "energyShield": 38
+      },
+      {
+        "itemName": "Advanced Martyr Crown",
+        "type": "Helmet",
+        "levelRequired": 55,
+        "strRequired": 55,
+        "intRequired": 55,
+        "armour": 115,
+        "energyShield": 41
+      },
+      {
+        "itemName": "Advanced Heavy Crown",
+        "type": "Helmet",
+        "levelRequired": 59,
+        "strRequired": 59,
+        "intRequired": 59,
+        "armour": 123,
+        "energyShield": 43
+      },
+      {
+        "itemName": "Advanced Hewn Mask",
+        "type": "Helmet",
+        "levelRequired": 45,
+        "dexRequired": 46,
+        "intRequired": 46,
+        "evasion": 87,
+        "energyShield": 35
+      },
+      {
+        "itemName": "Advanced Face Mask",
+        "type": "Helmet",
+        "levelRequired": 48,
+        "dexRequired": 49,
+        "intRequired": 49,
+        "evasion": 92,
+        "energyShield": 37
+      },
+      {
+        "itemName": "Advanced Hooded Mask",
+        "type": "Helmet",
+        "levelRequired": 51,
+        "dexRequired": 52,
+        "intRequired": 52,
+        "evasion": 98,
+        "energyShield": 38
+      },
+      {
+        "itemName": "Advanced Veiled Mask",
+        "type": "Helmet",
+        "levelRequired": 55,
+        "dexRequired": 55,
+        "intRequired": 55,
+        "evasion": 105,
+        "energyShield": 41
+      },
+      {
+        "itemName": "Advanced Tribal Mask",
+        "type": "Helmet",
+        "levelRequired": 59,
+        "dexRequired": 59,
+        "intRequired": 59,
+        "evasion": 111,
+        "energyShield": 43
+      },
+      {
+        "itemName": "Expert Soldier Greathelm",
+        "type": "Helmet",
+        "levelRequired": 65,
+        "strRequired": 118,
+        "armour": 243
+      },
+      {
+        "itemName": "Expert Spired Greathelm",
+        "type": "Helmet",
+        "levelRequired": 70,
+        "strRequired": 129,
+        "armour": 267
+      },
+      {
+        "itemName": "Expert Elite Greathelm",
+        "type": "Helmet",
+        "levelRequired": 75,
+        "strRequired": 139,
+        "armour": 292
+      },
+      {
+        "itemName": "Expert Felt Cap",
+        "type": "Helmet",
+        "levelRequired": 65,
+        "dexRequired": 118,
+        "evasion": 222
+      },
+      {
+        "itemName": "Expert Swathed Cap",
+        "type": "Helmet",
+        "levelRequired": 70,
+        "dexRequired": 129,
+        "evasion": 244
+      },
+      {
+        "itemName": "Expert Hunter Hood",
+        "type": "Helmet",
+        "levelRequired": 75,
+        "dexRequired": 139,
+        "evasion": 266
+      },
+      {
+        "itemName": "Expert Wicker Tiara",
+        "type": "Helmet",
+        "levelRequired": 65,
+        "intRequired": 118,
+        "energyShield": 84
+      },
+      {
+        "itemName": "Expert Chain Tiara",
+        "type": "Helmet",
+        "levelRequired": 70,
+        "intRequired": 129,
+        "energyShield": 92
+      },
+      {
+        "itemName": "Expert Feathered Tiara",
+        "type": "Helmet",
+        "levelRequired": 75,
+        "intRequired": 139,
+        "energyShield": 101
+      },
+      {
+        "itemName": "Expert Guarded Helm",
+        "type": "Helmet",
+        "levelRequired": 65,
+        "strRequired": 65,
+        "dexRequired": 65,
+        "armour": 134,
+        "evasion": 122
+      },
+      {
+        "itemName": "Expert Cowled Helm",
+        "type": "Helmet",
+        "levelRequired": 70,
+        "strRequired": 70,
+        "dexRequired": 70,
+        "armour": 147,
+        "evasion": 134
+      },
+      {
+        "itemName": "Expert Shielded Helm",
+        "type": "Helmet",
+        "levelRequired": 75,
+        "strRequired": 76,
+        "dexRequired": 76,
+        "armour": 160,
+        "evasion": 146
+      },
+      {
+        "itemName": "Expert Horned Crown",
+        "type": "Helmet",
+        "levelRequired": 65,
+        "strRequired": 65,
+        "intRequired": 65,
+        "armour": 134,
+        "energyShield": 46
+      },
+      {
+        "itemName": "Expert Martyr Crown",
+        "type": "Helmet",
+        "levelRequired": 70,
+        "strRequired": 70,
+        "intRequired": 70,
+        "armour": 147,
+        "energyShield": 51
+      },
+      {
+        "itemName": "Expert Heavy Crown",
+        "type": "Helmet",
+        "levelRequired": 75,
+        "strRequired": 76,
+        "intRequired": 76,
+        "armour": 160,
+        "energyShield": 55
+      },
+      {
+        "itemName": "Expert Face Mask",
+        "type": "Helmet",
+        "levelRequired": 65,
+        "dexRequired": 65,
+        "intRequired": 65,
+        "evasion": 122,
+        "energyShield": 46
+      },
+      {
+        "itemName": "Expert Veiled Mask",
+        "type": "Helmet",
+        "levelRequired": 70,
+        "dexRequired": 70,
+        "intRequired": 70,
+        "evasion": 134,
+        "energyShield": 51
+      },
+      {
+        "itemName": "Expert Tribal Mask",
+        "type": "Helmet",
+        "levelRequired": 75,
+        "dexRequired": 76,
+        "intRequired": 76,
+        "evasion": 146,
+        "energyShield": 55
+      }
+    ],
+    "Boots": [
+      {
+        "itemName": "Golden Caligae",
+        "type": "Boots",
+        "levelRequired": 12
+      },
+      {
+        "itemName": "Rough Greaves",
+        "type": "Boots",
+        "armour": 22
+      },
+      {
+        "itemName": "Iron Greaves",
+        "type": "Boots",
+        "levelRequired": 11,
+        "strRequired": 20,
+        "armour": 47
+      },
+      {
+        "itemName": "Bronze Greaves",
+        "type": "Boots",
+        "levelRequired": 16,
+        "strRequired": 29,
+        "armour": 60
+      },
+      {
+        "itemName": "Trimmed Greaves",
+        "type": "Boots",
+        "levelRequired": 27,
+        "strRequired": 47,
+        "armour": 87
+      },
+      {
+        "itemName": "Stone Greaves",
+        "type": "Boots",
+        "levelRequired": 33,
+        "strRequired": 57,
+        "armour": 102
+      },
+      {
+        "itemName": "Reefsteel Greaves",
+        "type": "Boots",
+        "levelRequired": 45,
+        "strRequired": 78,
+        "armour": 132
+      },
+      {
+        "itemName": "Monument Greaves",
+        "type": "Boots",
+        "levelRequired": 52,
+        "strRequired": 89,
+        "armour": 150
+      },
+      {
+        "itemName": "Totemic Greaves",
+        "type": "Boots",
+        "levelRequired": 65,
+        "strRequired": 111,
+        "armour": 182
+      },
+      {
+        "itemName": "Rawhide Boots",
+        "type": "Boots",
+        "evasion": 15
+      },
+      {
+        "itemName": "Laced Boots",
+        "type": "Boots",
+        "levelRequired": 11,
+        "dexRequired": 20,
+        "evasion": 38
+      },
+      {
+        "itemName": "Embossed Boots",
+        "type": "Boots",
+        "levelRequired": 16,
+        "dexRequired": 29,
+        "evasion": 50
+      },
+      {
+        "itemName": "Steeltoe Boots",
+        "type": "Boots",
+        "levelRequired": 28,
+        "dexRequired": 49,
+        "evasion": 79
+      },
+      {
+        "itemName": "Lizardscale Boots",
+        "type": "Boots",
+        "levelRequired": 33,
+        "dexRequired": 57,
+        "evasion": 90
+      },
+      {
+        "itemName": "Flared Boots",
+        "type": "Boots",
+        "levelRequired": 45,
+        "dexRequired": 78,
+        "evasion": 119
+      },
+      {
+        "itemName": "Leatherplate Boots",
+        "type": "Boots",
+        "levelRequired": 52,
+        "dexRequired": 89,
+        "evasion": 135
+      },
+      {
+        "itemName": "Embroidered Boots",
+        "type": "Boots",
+        "levelRequired": 65,
+        "dexRequired": 111,
+        "evasion": 166
+      },
+      {
+        "itemName": "Straw Sandals",
+        "type": "Boots",
+        "energyShield": 14
+      },
+      {
+        "itemName": "Wrapped Sandals",
+        "type": "Boots",
+        "levelRequired": 11,
+        "intRequired": 20,
+        "energyShield": 22
+      },
+      {
+        "itemName": "Lattice Sandals",
+        "type": "Boots",
+        "levelRequired": 16,
+        "intRequired": 29,
+        "energyShield": 25
+      },
+      {
+        "itemName": "Silk Slippers",
+        "type": "Boots",
+        "levelRequired": 27,
+        "intRequired": 47,
+        "energyShield": 34
+      },
+      {
+        "itemName": "Feathered Sandals",
+        "type": "Boots",
+        "levelRequired": 33,
+        "intRequired": 57,
+        "energyShield": 38
+      },
+      {
+        "itemName": "Flax Sandals",
+        "type": "Boots",
+        "levelRequired": 45,
+        "intRequired": 78,
+        "energyShield": 48
+      },
+      {
+        "itemName": "Studded Sandals",
+        "type": "Boots",
+        "levelRequired": 52,
+        "intRequired": 89,
+        "energyShield": 53
+      },
+      {
+        "itemName": "Elaborate Sandals",
+        "type": "Boots",
+        "levelRequired": 65,
+        "intRequired": 111,
+        "energyShield": 63
+      },
+      {
+        "itemName": "Mail Sabatons",
+        "type": "Boots",
+        "levelRequired": 6,
+        "strRequired": 8,
+        "dexRequired": 8,
+        "armour": 19,
+        "evasion": 15
+      },
+      {
+        "itemName": "Braced Sabatons",
+        "type": "Boots",
+        "levelRequired": 16,
+        "strRequired": 17,
+        "dexRequired": 17,
+        "armour": 33,
+        "evasion": 28
+      },
+      {
+        "itemName": "Stacked Sabatons",
+        "type": "Boots",
+        "levelRequired": 33,
+        "strRequired": 32,
+        "dexRequired": 32,
+        "armour": 56,
+        "evasion": 50
+      },
+      {
+        "itemName": "Covered Sabatons",
+        "type": "Boots",
+        "levelRequired": 45,
+        "strRequired": 43,
+        "dexRequired": 43,
+        "armour": 73,
+        "evasion": 65
+      },
+      {
+        "itemName": "Flexile Sabatons",
+        "type": "Boots",
+        "levelRequired": 52,
+        "strRequired": 50,
+        "dexRequired": 50,
+        "armour": 82,
+        "evasion": 74
+      },
+      {
+        "itemName": "Bold Sabatons",
+        "type": "Boots",
+        "levelRequired": 65,
+        "strRequired": 61,
+        "dexRequired": 61,
+        "armour": 100,
+        "evasion": 91
+      },
+      {
+        "itemName": "Padded Leggings",
+        "type": "Boots",
+        "levelRequired": 5,
+        "strRequired": 7,
+        "intRequired": 7,
+        "armour": 18,
+        "energyShield": 9
+      },
+      {
+        "itemName": "Secured Leggings",
+        "type": "Boots",
+        "levelRequired": 16,
+        "strRequired": 17,
+        "intRequired": 17,
+        "armour": 33,
+        "energyShield": 14
+      },
+      {
+        "itemName": "Pelt Leggings",
+        "type": "Boots",
+        "levelRequired": 33,
+        "strRequired": 32,
+        "intRequired": 32,
+        "armour": 56,
+        "energyShield": 21
+      },
+      {
+        "itemName": "Weaver Leggings",
+        "type": "Boots",
+        "levelRequired": 45,
+        "strRequired": 43,
+        "intRequired": 43,
+        "armour": 73,
+        "energyShield": 26
+      },
+      {
+        "itemName": "Gilt Leggings",
+        "type": "Boots",
+        "levelRequired": 52,
+        "strRequired": 50,
+        "intRequired": 50,
+        "armour": 82,
+        "energyShield": 29
+      },
+      {
+        "itemName": "Pious Leggings",
+        "type": "Boots",
+        "levelRequired": 65,
+        "strRequired": 61,
+        "intRequired": 61,
+        "armour": 100,
+        "energyShield": 35
+      },
+      {
+        "itemName": "Frayed Shoes",
+        "type": "Boots",
+        "levelRequired": 5,
+        "dexRequired": 7,
+        "intRequired": 7,
+        "evasion": 13,
+        "energyShield": 9
+      },
+      {
+        "itemName": "Threaded Shoes",
+        "type": "Boots",
+        "levelRequired": 16,
+        "dexRequired": 17,
+        "intRequired": 17,
+        "evasion": 28,
+        "energyShield": 14
+      },
+      {
+        "itemName": "Hunting Shoes",
+        "type": "Boots",
+        "levelRequired": 33,
+        "dexRequired": 32,
+        "intRequired": 32,
+        "evasion": 50,
+        "energyShield": 21
+      },
+      {
+        "itemName": "Steelpoint Shoes",
+        "type": "Boots",
+        "levelRequired": 45,
+        "dexRequired": 43,
+        "intRequired": 43,
+        "evasion": 65,
+        "energyShield": 26
+      },
+      {
+        "itemName": "Velour Shoes",
+        "type": "Boots",
+        "levelRequired": 52,
+        "dexRequired": 50,
+        "intRequired": 50,
+        "evasion": 74,
+        "energyShield": 29
+      },
+      {
+        "itemName": "Bladed Shoes",
+        "type": "Boots",
+        "levelRequired": 65,
+        "dexRequired": 61,
+        "intRequired": 61,
+        "evasion": 91,
+        "energyShield": 35
+      },
+      {
+        "itemName": "Grand Cuisses",
+        "type": "Boots",
+        "levelRequired": 65,
+        "strRequired": 43,
+        "dexRequired": 43,
+        "intRequired": 43,
+        "armour": 66,
+        "evasion": 60,
+        "energyShield": 23
+      },
+      {
+        "itemName": "Advanced Iron Greaves",
+        "type": "Boots",
+        "levelRequired": 45,
+        "strRequired": 78,
+        "armour": 132
+      },
+      {
+        "itemName": "Advanced Bronze Greaves",
+        "type": "Boots",
+        "levelRequired": 51,
+        "strRequired": 88,
+        "armour": 147
+      },
+      {
+        "itemName": "Advanced Trimmed Greaves",
+        "type": "Boots",
+        "levelRequired": 55,
+        "strRequired": 95,
+        "armour": 157
+      },
+      {
+        "itemName": "Advanced Stone Greaves",
+        "type": "Boots",
+        "levelRequired": 59,
+        "strRequired": 101,
+        "armour": 167
+      },
+      {
+        "itemName": "Advanced Laced Boots",
+        "type": "Boots",
+        "levelRequired": 45,
+        "dexRequired": 78,
+        "evasion": 119
+      },
+      {
+        "itemName": "Advanced Embossed Boots",
+        "type": "Boots",
+        "levelRequired": 51,
+        "dexRequired": 88,
+        "evasion": 133
+      },
+      {
+        "itemName": "Advanced Steeltoe Boots",
+        "type": "Boots",
+        "levelRequired": 55,
+        "dexRequired": 95,
+        "evasion": 143
+      },
+      {
+        "itemName": "Advanced Lizardscale Boots",
+        "type": "Boots",
+        "levelRequired": 59,
+        "dexRequired": 101,
+        "evasion": 152
+      },
+      {
+        "itemName": "Advanced Wrapped Sandals",
+        "type": "Boots",
+        "levelRequired": 45,
+        "intRequired": 78,
+        "energyShield": 48
+      },
+      {
+        "itemName": "Advanced Lattice Sandals",
+        "type": "Boots",
+        "levelRequired": 51,
+        "intRequired": 88,
+        "energyShield": 52
+      },
+      {
+        "itemName": "Advanced Silk Slippers",
+        "type": "Boots",
+        "levelRequired": 55,
+        "intRequired": 95,
+        "energyShield": 55
+      },
+      {
+        "itemName": "Advanced Feathered Sandals",
+        "type": "Boots",
+        "levelRequired": 59,
+        "intRequired": 101,
+        "energyShield": 58
+      },
+      {
+        "itemName": "Advanced Mail Sabatons",
+        "type": "Boots",
+        "levelRequired": 45,
+        "strRequired": 43,
+        "dexRequired": 43,
+        "armour": 73,
+        "evasion": 65
+      },
+      {
+        "itemName": "Advanced Braced Sabatons",
+        "type": "Boots",
+        "levelRequired": 51,
+        "strRequired": 49,
+        "dexRequired": 49,
+        "armour": 81,
+        "evasion": 73
+      },
+      {
+        "itemName": "Advanced Stacked Sabatons",
+        "type": "Boots",
+        "levelRequired": 59,
+        "strRequired": 56,
+        "dexRequired": 56,
+        "armour": 92,
+        "evasion": 84
+      },
+      {
+        "itemName": "Advanced Padded Leggings",
+        "type": "Boots",
+        "levelRequired": 45,
+        "strRequired": 43,
+        "intRequired": 43,
+        "armour": 73,
+        "energyShield": 26
+      },
+      {
+        "itemName": "Advanced Secured Leggings",
+        "type": "Boots",
+        "levelRequired": 51,
+        "strRequired": 49,
+        "intRequired": 49,
+        "armour": 81,
+        "energyShield": 29
+      },
+      {
+        "itemName": "Advanced Pelt Leggings",
+        "type": "Boots",
+        "levelRequired": 59,
+        "strRequired": 56,
+        "intRequired": 56,
+        "armour": 92,
+        "energyShield": 32
+      },
+      {
+        "itemName": "Advanced Frayed Shoes",
+        "type": "Boots",
+        "levelRequired": 45,
+        "dexRequired": 43,
+        "intRequired": 43,
+        "evasion": 65,
+        "energyShield": 26
+      },
+      {
+        "itemName": "Advanced Threaded Shoes",
+        "type": "Boots",
+        "levelRequired": 51,
+        "dexRequired": 49,
+        "intRequired": 49,
+        "evasion": 73,
+        "energyShield": 29
+      },
+      {
+        "itemName": "Advanced Hunting Shoes",
+        "type": "Boots",
+        "levelRequired": 59,
+        "dexRequired": 56,
+        "intRequired": 56,
+        "evasion": 84,
+        "energyShield": 32
+      },
+      {
+        "itemName": "Expert Iron Greaves",
+        "type": "Boots",
+        "levelRequired": 65,
+        "strRequired": 111,
+        "armour": 182
+      },
+      {
+        "itemName": "Expert Trimmed Greaves",
+        "type": "Boots",
+        "levelRequired": 70,
+        "strRequired": 121,
+        "armour": 200
+      },
+      {
+        "itemName": "Expert Stone Greaves",
+        "type": "Boots",
+        "levelRequired": 75,
+        "strRequired": 131,
+        "armour": 219
+      },
+      {
+        "itemName": "Expert Laced Boots",
+        "type": "Boots",
+        "levelRequired": 65,
+        "dexRequired": 111,
+        "evasion": 166
+      },
+      {
+        "itemName": "Expert Steeltoe Boots",
+        "type": "Boots",
+        "levelRequired": 70,
+        "dexRequired": 121,
+        "evasion": 183
+      },
+      {
+        "itemName": "Expert Lizardscale Boots",
+        "type": "Boots",
+        "levelRequired": 75,
+        "dexRequired": 131,
+        "evasion": 200
+      },
+      {
+        "itemName": "Expert Wrapped Sandals",
+        "type": "Boots",
+        "levelRequired": 65,
+        "intRequired": 111,
+        "energyShield": 63
+      },
+      {
+        "itemName": "Expert Silk Slippers",
+        "type": "Boots",
+        "levelRequired": 70,
+        "intRequired": 121,
+        "energyShield": 69
+      },
+      {
+        "itemName": "Expert Feathered Sandals",
+        "type": "Boots",
+        "levelRequired": 75,
+        "intRequired": 131,
+        "energyShield": 75
+      },
+      {
+        "itemName": "Expert Mail Sabatons",
+        "type": "Boots",
+        "levelRequired": 65,
+        "strRequired": 61,
+        "dexRequired": 61,
+        "armour": 100,
+        "evasion": 91
+      },
+      {
+        "itemName": "Expert Braced Sabatons",
+        "type": "Boots",
+        "levelRequired": 70,
+        "strRequired": 66,
+        "dexRequired": 66,
+        "armour": 110,
+        "evasion": 101
+      },
+      {
+        "itemName": "Expert Stacked Sabatons",
+        "type": "Boots",
+        "levelRequired": 75,
+        "strRequired": 71,
+        "dexRequired": 71,
+        "armour": 120,
+        "evasion": 110
+      },
+      {
+        "itemName": "Expert Padded Leggings",
+        "type": "Boots",
+        "levelRequired": 65,
+        "strRequired": 61,
+        "intRequired": 61,
+        "armour": 100,
+        "energyShield": 35
+      },
+      {
+        "itemName": "Expert Secured Leggings",
+        "type": "Boots",
+        "levelRequired": 70,
+        "strRequired": 66,
+        "intRequired": 66,
+        "armour": 110,
+        "energyShield": 38
+      },
+      {
+        "itemName": "Expert Pelt Leggings",
+        "type": "Boots",
+        "levelRequired": 75,
+        "strRequired": 71,
+        "intRequired": 71,
+        "armour": 120,
+        "energyShield": 42
+      },
+      {
+        "itemName": "Expert Frayed Shoes",
+        "type": "Boots",
+        "levelRequired": 65,
+        "dexRequired": 61,
+        "intRequired": 61,
+        "evasion": 91,
+        "energyShield": 35
+      },
+      {
+        "itemName": "Expert Threaded Shoes",
+        "type": "Boots",
+        "levelRequired": 70,
+        "dexRequired": 66,
+        "intRequired": 66,
+        "evasion": 101,
+        "energyShield": 38
+      },
+      {
+        "itemName": "Expert Hunting Shoes",
+        "type": "Boots",
+        "levelRequired": 75,
+        "dexRequired": 71,
+        "intRequired": 71,
+        "evasion": 110,
+        "energyShield": 42
+      }
+    ]
+  }
+}

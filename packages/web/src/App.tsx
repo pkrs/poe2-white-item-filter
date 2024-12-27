@@ -4,25 +4,13 @@ import { Slider } from "@/components/ui/slider";
 import { Copy } from "lucide-react";
 import { useEffect, useState } from "react";
 import "./App.css";
-type CharacterClass =
-  | "Monk"
-  | "Warrior"
-  | "Witch"
-  | "Ranger"
-  | "Sorceress"
-  | "Mercenary";
-type DefenceType =
-  | "Armour"
-  | "Evasion"
-  | "Energy Shield"
-  | "Armour/Evasion"
-  | "Evasion/Energy Shield"
-  | "Energy Shield/Armour";
-type EquipmentOption =
-  | "All equipment"
-  | "Highest for my level"
-  | "Most and 2nd most highest";
-type BorderColor = "Red" | "Green" | "Blue" | "Yellow" | "Teal";
+import {
+  BorderColor,
+  CharacterClass,
+  DefenceType,
+  EquipmentOption,
+  generateSnippet,
+} from "./snippet";
 
 const defaultDefenceTypes: Record<CharacterClass, DefenceType> = {
   Monk: "Evasion/Energy Shield",
@@ -42,7 +30,7 @@ function App() {
     useState<EquipmentOption>("All equipment");
   const [borderColor, setBorderColor] = useState<BorderColor>("Red");
   const [level, setLevel] = useState<number>(1);
-  const [snippet] = useState<string>("");
+  const [snippet, setSnippet] = useState<string>("");
 
   useEffect(() => {
     if (characterClass) {
@@ -55,6 +43,18 @@ function App() {
       );
     }
   }, [characterClass]);
+
+  useEffect(() => {
+    if (!characterClass) return;
+    const newSnippet = generateSnippet(
+      characterClass,
+      defenceTypes,
+      equipmentOption,
+      level,
+      borderColor
+    );
+    setSnippet(newSnippet);
+  }, [characterClass, defenceTypes, equipmentOption, level, borderColor]);
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(snippet);
@@ -219,7 +219,7 @@ function App() {
         {/* Snippet Display */}
         {characterClass && (
           <Card className="mt-8 bg-[#1C1C1C] border-[#3B3B3B]">
-            <CardHeader className="flex flex-row items-center justify-between">
+            <CardHeader className="flex flex-row justify-between">
               <CardTitle className="text-[#FFA800]">
                 Generated Snippet
               </CardTitle>
@@ -233,8 +233,8 @@ function App() {
               </Button>
             </CardHeader>
             <CardContent>
-              <pre className="bg-[#0C0C0C] p-4 rounded-lg overflow-x-auto border border-[#3B3B3B]">
-                {"// Snippet will be generated here"}
+              <pre className="bg-[#0C0C0C] p-4 rounded-lg overflow-x-auto border border-[#3B3B3B] text-left">
+                {snippet || "// Select options to generate snippet"}
               </pre>
             </CardContent>
           </Card>
