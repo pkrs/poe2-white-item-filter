@@ -224,14 +224,17 @@ function App() {
               <CardTitle className="text-[#FFA800]">
                 Generated Snippet
               </CardTitle>
-              <Button
-                variant="outline"
-                size="icon"
-                onClick={copyToClipboard}
-                className="border-[#3B3B3B] hover:border-[#FFA800] hover:text-[#FFA800]"
-              >
-                <Copy className="h-4 w-4" />
-              </Button>
+              <div className="align-top">
+                Copy to Clipboard
+                <Button
+                  variant="outline"
+                  size="icon"
+                  onClick={copyToClipboard}
+                  className="border-[#3B3B3B] hover:border-[#FFA800] hover:text-[#FFA800] ml-2"
+                >
+                  <Copy className="h-4 w-4" />
+                </Button>
+              </div>
             </CardHeader>
             <CardContent>
               <pre className="bg-[#0C0C0C] p-4 rounded-lg overflow-x-auto border border-[#3B3B3B] text-left">
