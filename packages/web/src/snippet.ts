@@ -92,7 +92,8 @@ Quality == 0
 Class ${itemClassesStr}
 ${attributeChecks.join("\n")}
 SetBorderColor ${RGB_COLORS[borderColor]}
-SetFontSize 35`
+SetFontSize 35
+`
       );
     }
   }
