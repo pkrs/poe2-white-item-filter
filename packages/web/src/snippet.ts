@@ -69,7 +69,7 @@ export const generateSnippet = (
   }
 
   snippets.push("### END: White Item Filter");
-  return snippets.join("\n\n");
+  return snippets.join("\n");
 };
 
 // For "All Equipment" option we can generate just one snippet for all Item Types, but one per each defence type

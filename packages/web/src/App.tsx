@@ -63,8 +63,18 @@ function App() {
   return (
     <div className="min-h-screen min-w-[1024px] text-gray-200 py-8 px-4 flex flex-col">
       <div className="mx-auto flex-grow">
-        <h1 className="text-4xl text-center mb-8 text-[#FFA800] font-">
-          POE2 White Item Filter Generator
+        <h1 className="text-4xl text-center mb-8 text-white font-">
+          POE2 White Item Filter Generator{" "}
+          <img
+            src="/transmutation_orb.webp"
+            alt="logo"
+            className="w-16 h-16 inline-block"
+          />
+          <img
+            src="/augmentation_orb.webp"
+            alt="logo"
+            className="w-16 h-16 inline-block"
+          />
         </h1>
 
         <Card className="bg-[#1C1C1C] border-[#3B3B3B] pt-4">
