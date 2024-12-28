@@ -76,6 +76,13 @@ function App() {
           <span className="text-[#FFA800] cursor-help">Help</span>
           <div className="absolute right-0 w-64 p-4 bg-[#0C0C0C] border border-[#3B3B3B] rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
             <p className="text-sm text-gray-300">
+              This filter is meant to supplement your existing filter file, like
+              Neversink.
+              <br />
+              <br />
+              This filter is for Armour pieces only.
+              <br />
+              <br />
               Filter files are located in "Documents\My Games\Path of Exile 2"
               with the extension .filter
               <br />
@@ -248,8 +255,11 @@ function App() {
         {characterClass && (
           <Card className="mt-8 bg-[#1C1C1C] border-[#3B3B3B]">
             <CardHeader className="flex flex-row justify-between">
-              <CardTitle className="text-[#FFA800]">
-                Generated Snippet
+              <CardTitle className="text-[#FFA800] justify-items-start">
+                <div>Generated Snippet</div>
+                <div className="text-sm text-gray-500">
+                  Based on defences selected (not class). Armour pieces only.
+                </div>
               </CardTitle>
               <div className="align-top">
                 Copy to Clipboard
@@ -274,7 +284,10 @@ function App() {
 
       {/* New footer section */}
       <footer className="text-center text-sm text-gray-500 mt-8">
-        <p>Path of Exile 2 is a trademark of Grinding Gear Games.</p>
+        <p>
+          Based on client version 0.1.0e. Path of Exile 2 is a trademark of
+          Grinding Gear Games.
+        </p>
         <p className="mt-1">
           <a
             href="https://www.exljbris.com/fontin.html"
