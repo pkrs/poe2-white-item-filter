@@ -61,8 +61,8 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen min-w-[1024px] text-gray-200 py-8 px-4">
-      <div className="mx-auto">
+    <div className="min-h-screen min-w-[1024px] text-gray-200 py-8 px-4 flex flex-col">
+      <div className="mx-auto flex-grow">
         <h1 className="text-4xl text-center mb-8 text-[#FFA800] font-">
           POE2 White Item Filter Generator
         </h1>
@@ -71,9 +71,6 @@ function App() {
           <CardContent className="space-y-6">
             {/* Character Class Selection */}
             <div className="space-y-2">
-              <label className="text-sm font-semibold text-[#FFA800]">
-                Character Class
-              </label>
               <div className="flex flex-wrap gap-2 justify-center">
                 {[
                   "Monk",
@@ -102,9 +99,6 @@ function App() {
             {/* Defence Types */}
             {characterClass && (
               <div className="space-y-2">
-                <label className="text-sm font-semibold text-[#FFA800]">
-                  Defence Types (Select multiple)
-                </label>
                 <div className="flex flex-wrap gap-2 justify-center">
                   {[
                     "Armour",
@@ -149,9 +143,6 @@ function App() {
             {/* Equipment Option */}
             {characterClass && (
               <div className="space-y-2">
-                <label className="text-sm font-semibold text-[#FFA800]">
-                  Equipment Option
-                </label>
                 <div className="flex flex-wrap gap-2 justify-center">
                   {["All equipment", "Highest for my level"].map((opt) => (
                     <Button
@@ -171,14 +162,14 @@ function App() {
 
                 {equipmentOption !== "All equipment" && (
                   <div className="mt-2">
-                    <div className="flex items-center gap-4">
+                    <div className="flex items-center justify-center gap-4">
                       <Slider
                         value={[level]}
                         onValueChange={([value]) => setLevel(value)}
                         min={1}
                         max={100}
                         step={1}
-                        className="w-full"
+                        className="max-w-[640px] "
                       />
                       <span className="min-w-[3ch] text-sm text-gray-400">
                         {level}
@@ -240,6 +231,22 @@ function App() {
           </Card>
         )}
       </div>
+
+      {/* New footer section */}
+      <footer className="text-center text-sm text-gray-500 mt-8">
+        <p>Path of Exile 2 is a trademark of Grinding Gear Games.</p>
+        <p className="mt-1">
+          <a
+            href="https://www.exljbris.com/fontin.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#FFA800] hover:underline"
+          >
+            Fontin
+          </a>{" "}
+          font by Jos Buivenga (exljbris).
+        </p>
+      </footer>
     </div>
   );
 }

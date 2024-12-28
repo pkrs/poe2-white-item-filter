@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @font-face {
+  /* A font by Jos Buivenga (exljbris) -> www.exljbris.com */
   font-family: "Fontin-SmallCaps";
   src: local("../public/fonts/Fontin-SmallCaps.ttf"),
     url("../public/fonts/Fontin-SmallCaps.ttf");

@@ -113,13 +113,13 @@ const generateHighestForLevelSnippet = (
       const relevantItems = items.filter((item) => {
         const hasArmourOrSkip = defenceType.includes("Armour")
           ? item.armour
-          : true;
+          : !item.armour;
         const hasEvasionOrSkip = defenceType.includes("Evasion")
           ? item.evasion
-          : true;
+          : !item.evasion;
         const hasESOrSkip = defenceType.includes("Energy Shield")
           ? item.energyShield
-          : true;
+          : !item.energyShield;
         return (
           hasArmourOrSkip &&
           hasEvasionOrSkip &&
@@ -127,7 +127,7 @@ const generateHighestForLevelSnippet = (
           (!item.levelRequired || item.levelRequired <= level)
         );
       });
-
+      console.log(relevantItems);
       if (relevantItems.length > 0) {
         // Find maximum values for each attribute
         const maxItem = relevantItems.reduce((max, item) => {
@@ -160,7 +160,7 @@ const generateHighestForLevelSnippet = (
 Show
 Rarity Normal
 Quality == 0
-Class ${itemClass}
+Class "${itemClass}"
 ${conditions.join("\n")}
 SetBorderColor ${RGB_COLORS[borderColor]}
 SetFontSize 35`
