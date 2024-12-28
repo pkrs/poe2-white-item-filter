@@ -61,7 +61,34 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen min-w-[1024px] text-gray-200 py-8 px-4 flex flex-col">
+    <div className="min-h-screen min-w-[1024px] text-gray-200 px-4 flex flex-col relative">
+      <div className="absolute top-0 right-2 flex items-center gap-4">
+        <a
+          href="https://github.com/pkrs/poe2-white-item-filter"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#FFA800] hover:underline"
+        >
+          GitHub
+        </a>
+
+        <div className="relative group">
+          <span className="text-[#FFA800] cursor-help">Help</span>
+          <div className="absolute right-0 w-64 p-4 bg-[#0C0C0C] border border-[#3B3B3B] rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
+            <p className="text-sm text-gray-300">
+              Filter files are located in "Documents\My Games\Path of Exile 2"
+              with the extension .filter
+              <br />
+              <br />
+              To select or reload a filter, go to Options\Game.
+              <br />
+              <br />
+              You can re-generate "Highest for my level" snippet as you progress
+              to hide the lower level items.
+            </p>
+          </div>
+        </div>
+      </div>
       <div className="mx-auto flex-grow">
         <h1 className="text-4xl text-center mb-8 text-white font-">
           POE2 White Item Filter Generator{" "}
