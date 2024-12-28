@@ -1,5 +1,5 @@
 {
-  "name": "@poe2-planner/web",
+  "name": "@poe2-tfilter/web",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -20,7 +20,7 @@
     "react-dom": "^18.3.1",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",
-    "@poe2-planner/types": "0.1.0"
+    "@poe2-tfilter/types": "0.1.0"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",

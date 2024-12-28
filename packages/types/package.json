@@ -1,5 +1,5 @@
 {
-  "name": "@poe2-planner/types",
+  "name": "@poe2-tfilter/types",
   "version": "0.1.0",
   "private": true,
   "main": "dist/index.js",

@@ -11,7 +11,7 @@
     "composite": true,
     "baseUrl": ".",
     "paths": {
-      "@poe2-planner/types": ["../types/dist/types.d.ts"]
+      "@poe2-tfilter/types": ["../types/dist/types.d.ts"]
     }
   },
   "references": [{ "path": "../types/" }],

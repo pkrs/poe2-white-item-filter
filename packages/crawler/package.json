@@ -1,5 +1,5 @@
 {
-  "name": "@poe2-planner/crawler",
+  "name": "@poe2-tfilter/crawler",
   "version": "0.1.0",
   "private": true,
   "main": "dist/index.js",
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
-    "@poe2-planner/types": "0.1.0"
+    "@poe2-tfilter/types": "0.1.0"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",

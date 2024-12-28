@@ -1,4 +1,4 @@
-import { Item, ItemData } from "@poe2-planner/types";
+import { Item, ItemData } from "@poe2-tfilter/types";
 import * as cheerio from "cheerio";
 import fs from "fs/promises";
 import path from "path";

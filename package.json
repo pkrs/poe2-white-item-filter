@@ -7,8 +7,8 @@
     "packages/web"
   ],
   "scripts": {
-    "build": "npm run build --workspace=@poe2-planner/types && npm run build --workspace=@poe2-planner/crawler && npm run build --workspace=@poe2-planner/web",
-    "dev": "npm run dev --workspace=@poe2-planner/web",
-    "crawl": "npm run crawl --workspace=@poe2-planner/crawler"
+    "build": "npm run build --workspace=@poe2-tfilter/types && npm run build --workspace=@poe2-tfilter/crawler && npm run build --workspace=@poe2-tfilter/web",
+    "dev": "npm run dev --workspace=@poe2-tfilter/web",
+    "crawl": "npm run crawl --workspace=@poe2-tfilter/crawler"
   }
 }

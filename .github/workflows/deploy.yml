@@ -22,17 +22,17 @@ jobs:
           node-version: 18 # or your preferred version
 
       - name: Install Dependencies
-        run: npm install --workspace=@poe2-planner/web # or yarn install
+        run: npm install --workspace=@poe2-tfilter/web # or yarn install
 
       - name: Build
-        run: npm run build --workspace=@poe2-planner/web # or yarn build
+        run: npm run build --workspace=@poe2-tfilter/web # or yarn build
 
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: poe2-white-item-filter # replace with your project name
+          projectName: poe2wif # replace with your project name
           directory: dist # or your build output directory
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
           workingDirectory: packages/web
